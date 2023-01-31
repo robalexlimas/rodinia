@@ -13,7 +13,6 @@ extern bool started;
     {                                                                          \
         if (enabled && !started) {                                             \
             started = true;                                                    \
-            checkCudaErrors(cudaProfilerStart());                              \
         }                                                                      \
         launch;                                                                \
     }

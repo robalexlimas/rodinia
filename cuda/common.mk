@@ -19,7 +19,7 @@ endef
 # CUDA detection
 #
 
-CUDA_ROOT ?= /usr
+CUDA_ROOT ?= /usr/local/cuda
 
 MACHINE := $(shell uname -m)
 ifeq ($(MACHINE), x86_64)
@@ -49,7 +49,7 @@ NVCC_LDLIBS += -Xcompiler $(call join-list,$(NONCUDA_LDLIBS),$(COMMA))
 endif
 NVCC_LDLIBS += -lcuda -lnvToolsExt
 
-NVCCFLAGS += --generate-line-info
+NVCCFLAGS += --use_fast_math --generate-line-info --gpu-architecture=sm_75 -Xptxas -O3,-v -lcudart
 ifdef DEBUG
 NVCCFLAGS += -g --device-debug
 endif
