@@ -1,4 +1,12 @@
 #!/usr/bin/env bash
-set -ue
+export PATH=$PATH:/usr/local/cuda/bin
+export CUDA_INSTALL_PATH=/usr/local/cuda
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 
-./lavaMD -boxes1d 10
+cd $1
+source setup_environment
+
+cd $2
+ldd lavaMD
+
+./lavaMD -boxes1d $3

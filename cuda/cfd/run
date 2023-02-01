@@ -1,9 +1,19 @@
 #!/usr/bin/env bash
-set -ue
+export PATH=$PATH:/usr/local/cuda/bin
+export CUDA_INSTALL_PATH=/usr/local/cuda
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+
+cd $1
+source setup_environment
 
 # There are three datasets:
-./euler3d ../../data/cfd/fvcorr.domn.097K
+
+cd $2
+ldd euler3d
+./euler3d $2
 #./euler3d ../../data/cfd/fvcorr.domn.193K
 #./euler3d ../../data/cfd/missile.domn.0.2M
-
-# replace euler3d with other CFD programs
+rm euler3d.sm_75.ptx*
+rm _app_cuda_version_*
+rm _cuobjdump_list_ptx_*
+rm -rf checkpoints/

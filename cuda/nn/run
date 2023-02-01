@@ -1,4 +1,12 @@
 #!/usr/bin/env bash
-set -ue
+export PATH=$PATH:/usr/local/cuda/bin
+export CUDA_INSTALL_PATH=/usr/local/cuda
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 
-./nn ../../data/nn/list640k_64.txt -r 5 -lat 30 -lng 90
+cd $1
+source setup_environment
+
+cd $2
+ldd nn
+
+./nn $3 -r 5 -lat 30 -lng 90
