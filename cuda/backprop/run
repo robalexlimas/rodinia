@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
 set -ue
 
-./backprop_cuda 65536
+cd $1
+source setup_environment
 
+cd $2
+ldd backprop_cuda
+./backprop_cuda $3
+rm backprop_cuda.sm_75.ptx*
+rm _app_cuda_version_*
+rm _cuobjdump_list_ptx_*
