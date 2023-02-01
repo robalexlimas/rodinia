@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-set -ue
+export PATH=$PATH:/usr/local/cuda/bin
+export CUDA_INSTALL_PATH=/usr/local/cuda
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 
 cd $1
 source setup_environment
@@ -10,3 +12,4 @@ ldd backprop_cuda
 rm backprop_cuda.sm_75.ptx*
 rm _app_cuda_version_*
 rm _cuobjdump_list_ptx_*
+rm -rf checkpoints/
