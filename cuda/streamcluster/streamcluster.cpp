@@ -869,13 +869,11 @@ int main(int argc, char **argv) {
         for (int i = 0; i < 5; i++)
             run(argc, argv);
 
-        cudaProfilerStart();
         nvtxRangePushA("host");
 
         run(argc, argv);
 
         nvtxRangePop();
-        cudaProfilerStop();
     }
 
     return EXIT_SUCCESS;
