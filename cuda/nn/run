@@ -10,3 +10,7 @@ cd $2
 ldd nn
 
 ./nn $3 -r 5 -lat 30 -lng 90
+rm nn.sm_75.ptx*
+rm _app_cuda_version_*
+rm _cuobjdump_list_ptx_*
+rm -rf checkpoints/

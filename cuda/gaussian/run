@@ -11,3 +11,7 @@ ldd gaussian
 
 #./gaussian -f ../../data/gaussian/matrix4.txt
 ./gaussian -s $3
+rm gaussian.sm_75.ptx*
+rm _app_cuda_version_*
+rm _cuobjdump_list_ptx_*
+rm -rf checkpoints/

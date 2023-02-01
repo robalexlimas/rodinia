@@ -10,3 +10,7 @@ cd $2
 ldd heartwall
 
 ./heartwall $3 $4
+rm heartwall.sm_75.ptx*
+rm _app_cuda_version_*
+rm _cuobjdump_list_ptx_*
+rm -rf checkpoints/
