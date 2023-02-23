@@ -2,6 +2,7 @@
 export PATH=$PATH:/usr/local/cuda/bin
 export CUDA_INSTALL_PATH=/usr/local/cuda
 export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+export OUTPUT=1
 
 cd $1
 source setup_environment
@@ -9,8 +10,10 @@ source setup_environment
 cd $2
 ldd nn
 
-./nn $3 -r 5 -lat 30 -lng 90
-rm nn.sm_75.ptx*
-rm _app_cuda_version_*
-rm _cuobjdump_list_ptx_*
+valgrind --tool=massif ./nn $3 -r 5 -lat 30 -lng 90
+mv massif.out.* /injector/results/
+rm nn.sm_*
+rm config_turing_islip.icnt
+rm gpgpu*
+rm _*
 rm -rf checkpoints/
