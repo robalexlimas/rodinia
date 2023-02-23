@@ -1,6 +1,19 @@
 #!/usr/bin/env bash
-set -ue
+export PATH=$PATH:/usr/local/cuda/bin
+export CUDA_INSTALL_PATH=/usr/local/cuda
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+export OUTPUT=1
 
-OUTPUT=1 ./run
-diff output.txt ../../results/heartwall/output.txt
+cd $1
+source setup_environment
 
+cd $2
+ldd heartwall
+
+./heartwall $3 $4
+mv output.* /injector/results
+rm heartwall.sm_*
+rm config_turing_islip.icnt
+rm gpgpu*
+rm _*
+rm -rf checkpoints/

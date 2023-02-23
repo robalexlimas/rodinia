@@ -12,6 +12,7 @@ ldd backprop_cuda
 
 valgrind --tool=massif ./backprop_cuda $3
 mv massif.out.* /injector/results/
+mv output.* /injector/results
 rm backprop_cuda.sm_*
 rm config_turing_islip.icnt
 rm gpgpu*

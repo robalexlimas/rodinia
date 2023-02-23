@@ -1,5 +1,19 @@
 #!/usr/bin/env bash
-set -ue
+export PATH=$PATH:/usr/local/cuda/bin
+export CUDA_INSTALL_PATH=/usr/local/cuda
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+export OUTPUT=1
 
-OUTPUT=1 ./run
-numdiff -r 1e-3 -s ', \n' output.txt ../../results/lavaMD/output.txt
+cd $1
+source setup_environment
+
+cd $2
+ldd lavaMD
+
+./lavaMD -boxes1d $3
+mv output.* /injector/results
+rm lavaMD.sm_*
+rm config_turing_islip.icnt
+rm gpgpu*
+rm _*
+rm -rf checkpoints/

@@ -12,6 +12,7 @@ ldd nn
 
 valgrind --tool=massif ./nn $3 -r 5 -lat 30 -lng 90
 mv massif.out.* /injector/results/
+mv output.* /injector/results
 rm nn.sm_*
 rm config_turing_islip.icnt
 rm gpgpu*

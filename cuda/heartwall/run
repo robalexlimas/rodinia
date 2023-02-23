@@ -12,6 +12,7 @@ ldd heartwall
 
 valgrind --tool=massif ./heartwall $3 $4
 mv massif.out.* /injector/results/
+mv output.* /injector/results
 rm heartwall.sm_*
 rm config_turing_islip.icnt
 rm gpgpu*

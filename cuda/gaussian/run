@@ -13,7 +13,8 @@ ldd gaussian
 #./gaussian -f ../../data/gaussian/matrix4.txt
 valgrind --tool=massif ./gaussian -s $3
 mv massif.out.* /injector/results/
-rm backprop_cuda.sm_*
+mv output.* /injector/results
+rm gaussian.sm_*
 rm config_turing_islip.icnt
 rm gpgpu*
 rm _*

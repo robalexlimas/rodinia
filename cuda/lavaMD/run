@@ -12,6 +12,7 @@ ldd lavaMD
 
 valgrind --tool=massif ./lavaMD -boxes1d $3
 mv massif.out.* /injector/results/
+mv output.* /injector/results
 rm lavaMD.sm_*
 rm config_turing_islip.icnt
 rm gpgpu*

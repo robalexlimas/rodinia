@@ -8,11 +8,12 @@ cd $1
 source setup_environment
 
 cd $2
-ldd backprop_cuda
+ldd gaussian
 
-./backprop_cuda $3
+#./gaussian -f ../../data/gaussian/matrix4.txt
+./gaussian -s $3
 mv output.* /injector/results
-rm backprop_cuda.sm_*
+rm gaussian.sm_*
 rm config_turing_islip.icnt
 rm gpgpu*
 rm _*
