@@ -1,0 +1,1811 @@
+desc: (none)
+cmd: ./backprop_cuda 2048
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=2970001
+mem_heap_B=394716
+mem_heap_extra_B=82796
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=5756304
+mem_heap_B=534048
+mem_heap_extra_B=82816
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=7240205
+mem_heap_B=681604
+mem_heap_extra_B=82852
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=9458176
+mem_heap_B=1794724
+mem_heap_extra_B=150052
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=11710892
+mem_heap_B=6703245
+mem_heap_extra_B=193259
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=13180646
+mem_heap_B=7519389
+mem_heap_extra_B=207675
+mem_stacks_B=0
+heap_tree=detailed
+n21: 7519389 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1109864 0x595BA5B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 1109864 0x5A5C3C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 1109864 0x595C7C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 1103248 0x5AD491F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 1103248 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 1103248 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 1103248 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 1103248 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 1103248 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 1103248 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 1103248 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 1103248 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 1103248 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 1103248 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+               n1: 1103248 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                n0: 1103248 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+    n0: 6616 in 2 places, all below massif's threshold (1.00%)
+ n1: 917504 0x58C314D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 917504 0x59CDD86: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 917504 0x57AA4D4: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 458752 0x57ABE84: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 458752 0x5AD31C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 458752 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 458752 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 458752 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 458752 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 458752 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 458752 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 458752 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 458752 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 458752 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 458752 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                n1: 458752 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                 n0: 458752 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+    n1: 458752 0x57ABFCA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 458752 0x5AD31C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 458752 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 458752 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 458752 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 458752 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 458752 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 458752 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 458752 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 458752 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 458752 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 458752 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                n1: 458752 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                 n0: 458752 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n1: 655360 0x5AC5802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x58F8CFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x4D1E4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 655360 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+          n1: 655360 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+           n0: 655360 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n0: 652533 in 200 places, all below massif's threshold (1.00%)
+ n1: 583632 0x582DD1F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 583632 0x595B108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 583632 0x5A5C3C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n2: 583632 0x595C7C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 580864 0x5AD491F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 580864 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 580864 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 580864 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 580864 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 580864 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 580864 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 580864 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 580864 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 580864 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 580864 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                n1: 580864 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                 n0: 580864 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+     n0: 2768 in 2 places, all below massif's threshold (1.00%)
+ n2: 528376 0x59C09C5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x57CB9CC: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x5AD364B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 524280 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+              n1: 524280 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+               n0: 524280 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+  n0: 4096 in 1 place, below massif's threshold (1.00%)
+ n1: 524280 0x57CB9B7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x5AD364B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+             n1: 524280 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+              n0: 524280 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n1: 524280 0x57CB9DD: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x5AD364B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+             n1: 524280 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+              n0: 524280 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n1: 295152 0x59E06C1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 295152 0x59E36D5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 295152 0x59E391A: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n0: 295152 in 6 places, all below massif's threshold (1.00%)
+ n2: 287292 0x10BDED: alloc_1d_dbl (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+  n3: 278936 0x10BE54: alloc_2d_dbl (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+   n1: 139332 0x10C056: bpnn_internal_create (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+    n1: 139332 0x10C1C1: bpnn_create (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+     n1: 139332 0x10CD6D: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+      n0: 139332 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+   n1: 139332 0x10C079: bpnn_internal_create (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+    n1: 139332 0x10C1C1: bpnn_create (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+     n1: 139332 0x10CD6D: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+      n0: 139332 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+   n0: 272 in 2 places, all below massif's threshold (1.00%)
+  n0: 8356 in 6 places, all below massif's threshold (1.00%)
+ n1: 262140 0x57CB9A1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 262140 0x5AD364B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 262140 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 262140 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 262140 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 262140 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 262140 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 262140 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 262140 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 262140 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 262140 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 262140 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+             n1: 262140 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+              n0: 262140 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n1: 168960 0x5855D79: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 168960 0x57D0CED: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 168960 0x5AC561C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 168960 0x58F8CFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 168960 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 168960 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 168960 0x4D1E4DE: __pthread_once_slow (pthread_once.c:116)
+        n1: 168960 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 168960 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 168960 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 168960 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+            n1: 168960 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+             n0: 168960 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n1: 139332 0x10B02B: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+  n1: 139332 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+   n0: 139332 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n1: 139332 0x10B04C: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+  n1: 139332 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+   n0: 139332 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n1: 139264 0x59224CF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 139264 0x592340B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 131072 0x5AC535E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 131072 0x58F8CFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 131072 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 131072 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 131072 0x4D1E4DE: __pthread_once_slow (pthread_once.c:116)
+        n1: 131072 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 131072 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 131072 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 131072 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+            n1: 131072 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+             n0: 131072 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+   n0: 8192 in 1 place, below massif's threshold (1.00%)
+ n1: 122880 0x59C0C60: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 122880 0x5AD37EC: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 122880 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 122880 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 122880 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 122880 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 122880 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 122880 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 122880 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 122880 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 122880 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 122880 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+             n1: 122880 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+              n0: 122880 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n1: 103944 0x57ABD1C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 103944 0x5AD31C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 103944 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 103944 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 103944 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 103944 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 103944 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 103944 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 103944 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 103944 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 103944 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 103944 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+             n1: 103944 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+              n0: 103944 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n1: 101760 0x57AA2BA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n0: 101760 in 2 places, all below massif's threshold (1.00%)
+ n1: 101016 0x599200E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 101016 0x5992B6B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n0: 101016 in 19 places, all below massif's threshold (1.00%)
+ n1: 83752 0x591F1FD: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n0: 83752 in 3 places, all below massif's threshold (1.00%)
+ n1: 78736 0x582D538: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 78736 0x595B108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 78736 0x5A5C3C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 78736 0x595C7C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n0: 78736 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=7
+#-----------
+time=15915630
+mem_heap_B=7946806
+mem_heap_extra_B=231330
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=18037282
+mem_heap_B=8003550
+mem_heap_extra_B=243666
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=20248108
+mem_heap_B=7979129
+mem_heap_extra_B=244615
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=21994103
+mem_heap_B=8337226
+mem_heap_extra_B=257222
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=24453892
+mem_heap_B=8516092
+mem_heap_extra_B=259740
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=46120864
+mem_heap_B=26673476
+mem_heap_extra_B=263884
+mem_stacks_B=0
+heap_tree=peak
+n11: 26673476 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 18153664 0x587BC20: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 18153664 0x5AD47C9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 18153664 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 18153664 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 18153664 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 18153664 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 18153664 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 18153664 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 18153664 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 18153664 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 18153664 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 18153664 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+             n1: 18153664 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+              n0: 18153664 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n0: 2653024 in 221 places, all below massif's threshold (1.00%)
+ n1: 1233488 0x595BA5B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 1233488 0x5A5C3C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 1233488 0x595C7C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 1103248 0x5AD491F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 1103248 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 1103248 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 1103248 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 1103248 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 1103248 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 1103248 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 1103248 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 1103248 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 1103248 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 1103248 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+               n1: 1103248 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                n0: 1103248 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+    n0: 130240 in 5 places, all below massif's threshold (1.00%)
+ n1: 917504 0x58C314D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 917504 0x59CDD86: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 917504 0x57AA4D4: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 458752 0x57ABE84: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 458752 0x5AD31C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 458752 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 458752 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 458752 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 458752 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 458752 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 458752 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 458752 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 458752 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 458752 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 458752 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                n1: 458752 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                 n0: 458752 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+    n1: 458752 0x57ABFCA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 458752 0x5AD31C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 458752 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 458752 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 458752 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 458752 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 458752 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 458752 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 458752 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 458752 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 458752 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 458752 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                n1: 458752 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                 n0: 458752 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n1: 901056 0x582DD1F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 901056 0x595B108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 901056 0x5A5C3C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n2: 901056 0x595C7C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 828416 0x5AD491F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 828416 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 828416 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 828416 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 828416 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 828416 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 828416 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 828416 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 828416 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 828416 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 828416 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                n1: 828416 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                 n0: 828416 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+     n0: 72640 in 5 places, all below massif's threshold (1.00%)
+ n1: 655360 0x5AC5802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x58F8CFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x4D1E4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 655360 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+          n1: 655360 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+           n0: 655360 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n2: 528376 0x59C09C5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x57CB9CC: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x5AD364B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 524280 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+              n1: 524280 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+               n0: 524280 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+  n0: 4096 in 1 place, below massif's threshold (1.00%)
+ n1: 524280 0x57CB9B7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x5AD364B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+             n1: 524280 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+              n0: 524280 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n1: 524280 0x57CB9DD: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x5AD364B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+             n1: 524280 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+              n0: 524280 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n1: 295152 0x59E06C1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 295152 0x59E36D5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 295152 0x59E391A: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n0: 295152 in 6 places, all below massif's threshold (1.00%)
+ n2: 287292 0x10BDED: alloc_1d_dbl (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+  n1: 278936 0x10BE54: alloc_2d_dbl (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+   n0: 278936 in 4 places, all below massif's threshold (1.00%)
+  n0: 8356 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=13
+#-----------
+time=47445304
+mem_heap_B=9046574
+mem_heap_extra_B=268306
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=49489831
+mem_heap_B=9690631
+mem_heap_extra_B=284721
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=51120262
+mem_heap_B=12195483
+mem_heap_extra_B=303389
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=53976067
+mem_heap_B=13733603
+mem_heap_extra_B=306917
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=95343664
+mem_heap_B=17016587
+mem_heap_extra_B=307229
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=112995445
+mem_heap_B=17049493
+mem_heap_extra_B=307299
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=121159403
+mem_heap_B=17117149
+mem_heap_extra_B=307515
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=122448623
+mem_heap_B=17318173
+mem_heap_extra_B=307963
+mem_stacks_B=0
+heap_tree=detailed
+n15: 17318173 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 7593670 0xB8FCEA3: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+  n3: 5951630 0xB8F3CD9: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+   n6: 3478176 0xB8F3E1E: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+    n0: 1445528 in 21 places, all below massif's threshold (1.00%)
+    n1: 1048704 0xB8F4167: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n2: 1048704 0xB8F1F7A: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+      n0: 720984 in 11 places, all below massif's threshold (1.00%)
+      n1: 327720 0xB8E8970: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+       n0: 327720 in 5 places, all below massif's threshold (1.00%)
+    n1: 327720 0xB8F101E: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n1: 327720 0xB8F12D2: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+      n0: 327720 in 5 places, all below massif's threshold (1.00%)
+    n1: 262288 0xB8F11CA: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n1: 262288 0xB8F1FB6: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+      n0: 262288 in 4 places, all below massif's threshold (1.00%)
+    n1: 197016 0xB26AD5A: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n0: 197016 in 3 places, all below massif's threshold (1.00%)
+    n1: 196920 0xB8F0FD2: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n1: 196920 0xB8F12D2: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+      n0: 196920 in 3 places, all below massif's threshold (1.00%)
+   n3: 2294216 0xB8F3BAE: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+    n1: 1638008 0xB280314: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n1: 1638008 0xB2646FB: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+      n1: 1638008 0xB257DDB: __cuda_CallJitEntryPoint (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+       n1: 1638008 0x5A49D38: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 1638008 0x5A5BA16: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+         n1: 1638008 0x595C4E1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+          n1: 1638008 0x58925D9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+           n1: 1638008 0x5892CEA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+            n1: 1638008 0x489437B: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 1638008 0x488399D: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 1638008 0x489A8E3: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 1638008 0x489C511: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                n1: 1638008 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                 n1: 1638008 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                  n1: 1638008 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                   n1: 1638008 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                    n1: 1638008 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                     n0: 1638008 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+    n1: 328168 0xB8F101E: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n1: 328168 0xB8F12D2: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+      n0: 328168 in 5 places, all below massif's threshold (1.00%)
+    n0: 328040 in 4 places, all below massif's threshold (1.00%)
+   n0: 179238 in 27 places, all below massif's threshold (1.00%)
+  n2: 1642040 0xB8F3391: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+   n2: 1642040 0xB8F3B32: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+    n1: 1642040 0xB280314: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n1: 1642040 0xB2646FB: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+      n1: 1642040 0xB257DDB: __cuda_CallJitEntryPoint (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+       n1: 1642040 0x5A49D38: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 1642040 0x5A5BA16: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+         n1: 1642040 0x595C4E1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+          n1: 1642040 0x58925D9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+           n1: 1642040 0x5892CEA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+            n1: 1642040 0x489437B: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 1642040 0x488399D: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 1642040 0x489A8E3: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 1642040 0x489C511: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                n1: 1642040 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                 n1: 1642040 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                  n1: 1642040 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                   n1: 1642040 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                    n1: 1642040 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                     n0: 1642040 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 2182535 in 256 places, all below massif's threshold (1.00%)
+ n1: 1594720 0x595BA5B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 1594720 0x5A5C3C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 1396960 0x595C7C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 1103248 0x5AD491F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 1103248 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 1103248 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 1103248 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 1103248 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 1103248 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 1103248 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 1103248 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 1103248 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 1103248 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 1103248 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+               n1: 1103248 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                n0: 1103248 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+    n0: 293712 in 7 places, all below massif's threshold (1.00%)
+   n0: 197760 in 7 places, all below massif's threshold (1.00%)
+ n1: 1085056 0x582DD1F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 1085056 0x595B108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 1085056 0x5A5C3C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n2: 979584 0x595C7C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 828416 0x5AD491F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 828416 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 828416 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 828416 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 828416 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 828416 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 828416 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 828416 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 828416 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 828416 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 828416 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                n1: 828416 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                 n0: 828416 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+     n0: 151168 in 7 places, all below massif's threshold (1.00%)
+    n0: 105472 in 7 places, all below massif's threshold (1.00%)
+ n1: 917504 0x58C314D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 917504 0x59CDD86: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 917504 0x57AA4D4: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 458752 0x57ABE84: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 458752 0x5AD31C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 458752 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 458752 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 458752 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 458752 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 458752 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 458752 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 458752 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 458752 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 458752 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 458752 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                n1: 458752 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                 n0: 458752 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+    n1: 458752 0x57ABFCA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 458752 0x5AD31C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 458752 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 458752 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 458752 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 458752 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 458752 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 458752 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 458752 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 458752 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 458752 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 458752 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                n1: 458752 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                 n0: 458752 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n1: 655360 0x5AC5802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x58F8CFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x4D1E4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 655360 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+          n1: 655360 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+           n0: 655360 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n2: 528376 0x59C09C5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x57CB9CC: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x5AD364B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 524280 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+              n1: 524280 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+               n0: 524280 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+  n0: 4096 in 1 place, below massif's threshold (1.00%)
+ n1: 524280 0x57CB9B7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x5AD364B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+             n1: 524280 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+              n0: 524280 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n1: 524280 0x57CB9DD: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x5AD364B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+             n1: 524280 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+              n0: 524280 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n1: 331776 0x582DD80: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 331776 0x595B108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 331776 0x5A5C3C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n0: 331776 in 8 places, all below massif's threshold (1.00%)
+ n1: 295152 0x59E06C1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 295152 0x59E36D5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 295152 0x59E391A: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n0: 295152 in 6 places, all below massif's threshold (1.00%)
+ n1: 292600 0x582D538: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 292600 0x595B108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 292600 0x5A5C3C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 215992 0x595C7C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n0: 215992 in 8 places, all below massif's threshold (1.00%)
+    n0: 76608 in 7 places, all below massif's threshold (1.00%)
+ n2: 287292 0x10BDED: alloc_1d_dbl (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+  n1: 278936 0x10BE54: alloc_2d_dbl (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+   n0: 278936 in 4 places, all below massif's threshold (1.00%)
+  n0: 8356 in 6 places, all below massif's threshold (1.00%)
+ n1: 262140 0x57CB9A1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 262140 0x5AD364B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 262140 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 262140 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 262140 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 262140 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 262140 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 262140 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 262140 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 262140 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 262140 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 262140 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+             n1: 262140 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+              n0: 262140 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n1: 243432 0x599200E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 243432 0x5992B6B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 176640 0x5A4D70D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n0: 176640 in 2 places, all below massif's threshold (1.00%)
+   n0: 66792 in 22 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=126945967
+mem_heap_B=17385861
+mem_heap_extra_B=308179
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=142738767
+mem_heap_B=17452541
+mem_heap_extra_B=308299
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=143714948
+mem_heap_B=17519557
+mem_heap_extra_B=308451
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=145966452
+mem_heap_B=17586173
+mem_heap_extra_B=308571
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=155357764
+mem_heap_B=17652845
+mem_heap_extra_B=308683
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=157803253
+mem_heap_B=17718885
+mem_heap_extra_B=308739
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=160445399
+mem_heap_B=17785533
+mem_heap_extra_B=308859
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=181914968
+mem_heap_B=17852821
+mem_heap_extra_B=309043
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=185019992
+mem_heap_B=17919837
+mem_heap_extra_B=309195
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=186821900
+mem_heap_B=17986485
+mem_heap_extra_B=309315
+mem_stacks_B=0
+heap_tree=detailed
+n15: 17986485 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 8261982 0xB8FCEA3: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+  n3: 6619942 0xB8F3CD9: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+   n7: 4002776 0xB8F3E1E: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+    n0: 1707824 in 23 places, all below massif's threshold (1.00%)
+    n1: 1048704 0xB8F4167: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n2: 1048704 0xB8F1F7A: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+      n0: 720984 in 11 places, all below massif's threshold (1.00%)
+      n1: 327720 0xB8E8970: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+       n0: 327720 in 5 places, all below massif's threshold (1.00%)
+    n1: 327720 0xB8F101E: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n1: 327720 0xB8F12D2: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+      n0: 327720 in 5 places, all below massif's threshold (1.00%)
+    n1: 262304 0xB27CBC3: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n0: 262304 in 3 places, all below massif's threshold (1.00%)
+    n1: 262288 0xB8F11CA: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n1: 262288 0xB8F1FB6: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+      n0: 262288 in 4 places, all below massif's threshold (1.00%)
+    n1: 197016 0xB26AD5A: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n0: 197016 in 3 places, all below massif's threshold (1.00%)
+    n1: 196920 0xB8F0FD2: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n1: 196920 0xB8F12D2: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+      n0: 196920 in 3 places, all below massif's threshold (1.00%)
+   n3: 2425464 0xB8F3BAE: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+    n1: 1638008 0xB280314: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n1: 1638008 0xB2646FB: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+      n1: 1638008 0xB257DDB: __cuda_CallJitEntryPoint (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+       n1: 1638008 0x5A49D38: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 1638008 0x5A5BA16: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+         n1: 1638008 0x595C4E1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+          n1: 1638008 0x58925D9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+           n1: 1638008 0x5892CEA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+            n1: 1638008 0x489437B: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 1638008 0x488399D: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 1638008 0x489A8E3: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 1638008 0x489C511: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                n1: 1638008 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                 n1: 1638008 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                  n1: 1638008 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                   n1: 1638008 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                    n1: 1638008 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                     n0: 1638008 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+    n0: 459288 in 5 places, all below massif's threshold (1.00%)
+    n1: 328168 0xB8F101E: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n1: 328168 0xB8F12D2: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+      n0: 328168 in 5 places, all below massif's threshold (1.00%)
+   n0: 191702 in 27 places, all below massif's threshold (1.00%)
+  n2: 1642040 0xB8F3391: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+   n2: 1642040 0xB8F3B32: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+    n1: 1642040 0xB280314: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n1: 1642040 0xB2646FB: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+      n1: 1642040 0xB257DDB: __cuda_CallJitEntryPoint (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+       n1: 1642040 0x5A49D38: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 1642040 0x5A5BA16: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+         n1: 1642040 0x595C4E1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+          n1: 1642040 0x58925D9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+           n1: 1642040 0x5892CEA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+            n1: 1642040 0x489437B: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 1642040 0x488399D: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 1642040 0x489A8E3: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 1642040 0x489C511: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                n1: 1642040 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                 n1: 1642040 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                  n1: 1642040 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                   n1: 1642040 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                    n1: 1642040 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                     n0: 1642040 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 2182535 in 256 places, all below massif's threshold (1.00%)
+ n1: 1594720 0x595BA5B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 1594720 0x5A5C3C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 1396960 0x595C7C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 1103248 0x5AD491F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 1103248 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 1103248 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 1103248 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 1103248 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 1103248 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 1103248 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 1103248 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 1103248 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 1103248 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 1103248 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+               n1: 1103248 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                n0: 1103248 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+    n0: 293712 in 7 places, all below massif's threshold (1.00%)
+   n0: 197760 in 7 places, all below massif's threshold (1.00%)
+ n1: 1085056 0x582DD1F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 1085056 0x595B108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 1085056 0x5A5C3C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n2: 979584 0x595C7C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 828416 0x5AD491F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 828416 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 828416 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 828416 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 828416 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 828416 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 828416 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 828416 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 828416 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 828416 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 828416 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                n1: 828416 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                 n0: 828416 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+     n0: 151168 in 7 places, all below massif's threshold (1.00%)
+    n0: 105472 in 7 places, all below massif's threshold (1.00%)
+ n1: 917504 0x58C314D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 917504 0x59CDD86: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 917504 0x57AA4D4: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 458752 0x57ABE84: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 458752 0x5AD31C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 458752 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 458752 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 458752 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 458752 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 458752 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 458752 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 458752 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 458752 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 458752 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 458752 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                n1: 458752 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                 n0: 458752 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+    n1: 458752 0x57ABFCA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 458752 0x5AD31C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 458752 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 458752 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 458752 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 458752 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 458752 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 458752 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 458752 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 458752 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 458752 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 458752 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                n1: 458752 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                 n0: 458752 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n1: 655360 0x5AC5802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x58F8CFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x4D1E4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 655360 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+          n1: 655360 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+           n0: 655360 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n2: 528376 0x59C09C5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x57CB9CC: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x5AD364B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 524280 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+              n1: 524280 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+               n0: 524280 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+  n0: 4096 in 1 place, below massif's threshold (1.00%)
+ n1: 524280 0x57CB9B7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x5AD364B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+             n1: 524280 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+              n0: 524280 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n1: 524280 0x57CB9DD: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x5AD364B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+             n1: 524280 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+              n0: 524280 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n1: 331776 0x582DD80: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 331776 0x595B108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 331776 0x5A5C3C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n0: 331776 in 8 places, all below massif's threshold (1.00%)
+ n1: 295152 0x59E06C1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 295152 0x59E36D5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 295152 0x59E391A: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n0: 295152 in 6 places, all below massif's threshold (1.00%)
+ n1: 292600 0x582D538: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 292600 0x595B108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 292600 0x5A5C3C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 215992 0x595C7C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n0: 215992 in 8 places, all below massif's threshold (1.00%)
+    n0: 76608 in 7 places, all below massif's threshold (1.00%)
+ n2: 287292 0x10BDED: alloc_1d_dbl (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+  n1: 278936 0x10BE54: alloc_2d_dbl (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+   n0: 278936 in 4 places, all below massif's threshold (1.00%)
+  n0: 8356 in 6 places, all below massif's threshold (1.00%)
+ n1: 262140 0x57CB9A1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 262140 0x5AD364B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 262140 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 262140 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 262140 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 262140 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 262140 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 262140 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 262140 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 262140 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 262140 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 262140 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+             n1: 262140 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+              n0: 262140 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n1: 243432 0x599200E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 243432 0x5992B6B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n0: 243432 in 23 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=31
+#-----------
+time=202803852
+mem_heap_B=18053125
+mem_heap_extra_B=309427
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=213664892
+mem_heap_B=18119741
+mem_heap_extra_B=309547
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=226415917
+mem_heap_B=18187061
+mem_heap_extra_B=309731
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=229483984
+mem_heap_B=18220843
+mem_heap_extra_B=309821
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=231231102
+mem_heap_B=18586005
+mem_heap_extra_B=310291
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=233150221
+mem_heap_B=19184813
+mem_heap_extra_B=311179
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=235565888
+mem_heap_B=19252038
+mem_heap_extra_B=311346
+mem_stacks_B=0
+heap_tree=detailed
+n15: 19252038 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 9527262 0xB8FCEA3: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+  n3: 7885222 0xB8F3CD9: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+   n8: 4593088 0xB8F3E1E: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+    n0: 1970056 in 25 places, all below massif's threshold (1.00%)
+    n1: 1048704 0xB8F4167: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n2: 1048704 0xB8F1F7A: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+      n0: 720984 in 11 places, all below massif's threshold (1.00%)
+      n1: 327720 0xB8E8970: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+       n0: 327720 in 5 places, all below massif's threshold (1.00%)
+    n1: 327880 0xB27CBC3: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n0: 327880 in 3 places, all below massif's threshold (1.00%)
+    n1: 327720 0xB8F101E: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n1: 327720 0xB8F12D2: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+      n0: 327720 in 5 places, all below massif's threshold (1.00%)
+    n1: 262504 0xB27D039: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n1: 262504 0xB8A4A73: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+      n1: 262504 0xB8BBF2E: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+       n1: 262504 0xB27E4FB: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+        n1: 262504 0xB258AA7: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+         n1: 262504 0xB8EFE3C: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+          n1: 262504 0xB2627B3: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+           n1: 262504 0xB264746: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+            n1: 262504 0xB257DDB: __cuda_CallJitEntryPoint (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+             n1: 262504 0x5A49D38: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+              n1: 262504 0x5A5BA16: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+               n1: 262504 0x595C4E1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+                n1: 262504 0x58925D9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+                 n1: 262504 0x5892CEA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+                  n1: 262504 0x489437B: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                   n1: 262504 0x488399D: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                    n1: 262504 0x489A8E3: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                     n1: 262504 0x489C511: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                      n1: 262504 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                       n1: 262504 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                        n1: 262504 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                         n1: 262504 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                          n1: 262504 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                           n0: 262504 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+    n1: 262288 0xB8F11CA: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n1: 262288 0xB8F1FB6: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+      n0: 262288 in 4 places, all below massif's threshold (1.00%)
+    n1: 197016 0xB26AD5A: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n0: 197016 in 3 places, all below massif's threshold (1.00%)
+    n1: 196920 0xB8F0FD2: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n1: 196920 0xB8F12D2: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+      n0: 196920 in 3 places, all below massif's threshold (1.00%)
+   n5: 3081296 0xB8F3BAE: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+    n1: 1638008 0xB280314: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n1: 1638008 0xB2646FB: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+      n1: 1638008 0xB257DDB: __cuda_CallJitEntryPoint (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+       n1: 1638008 0x5A49D38: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 1638008 0x5A5BA16: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+         n1: 1638008 0x595C4E1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+          n1: 1638008 0x58925D9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+           n1: 1638008 0x5892CEA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+            n1: 1638008 0x489437B: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 1638008 0x488399D: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 1638008 0x489A8E3: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 1638008 0x489C511: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                n1: 1638008 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                 n1: 1638008 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                  n1: 1638008 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                   n1: 1638008 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                    n1: 1638008 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                     n0: 1638008 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+    n2: 524672 0xB523E72: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n1: 459032 0xB523B6D: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+      n1: 459032 0xB523D5D: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+       n2: 459032 0xB523DA7: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+        n1: 262248 0xB523B6D: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+         n1: 262248 0xB523D5D: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+          n1: 262248 0xB523DA7: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+           n1: 262248 0xB523ED2: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+            n1: 262248 0xB27CBF7: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+             n1: 262248 0xB8BB7CE: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+              n1: 262248 0xB27E4FB: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+               n1: 262248 0xB258AA7: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+                n1: 262248 0xB8EFE3C: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+                 n1: 262248 0xB2627B3: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+                  n1: 262248 0xB264746: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+                   n1: 262248 0xB257DDB: __cuda_CallJitEntryPoint (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+                    n1: 262248 0x5A49D38: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+                     n1: 262248 0x5A5BA16: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+                      n1: 262248 0x595C4E1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+                       n1: 262248 0x58925D9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+                        n1: 262248 0x5892CEA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+                         n1: 262248 0x489437B: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                          n1: 262248 0x488399D: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                           n1: 262248 0x489A8E3: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                            n1: 262248 0x489C511: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                             n1: 262248 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                              n0: 262248 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 196784 0xB523ED2: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+         n1: 196784 0xB27CBF7: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+          n0: 196784 in 2 places, all below massif's threshold (1.00%)
+     n0: 65640 in 1 place, below massif's threshold (1.00%)
+    n1: 328168 0xB8F101E: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n1: 328168 0xB8F12D2: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+      n0: 328168 in 5 places, all below massif's threshold (1.00%)
+    n2: 328016 0xB5232F6: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n1: 262408 0xB523D2C: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+      n1: 262408 0xB523DA7: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+       n0: 262408 in 2 places, all below massif's threshold (1.00%)
+     n0: 65608 in 1 place, below massif's threshold (1.00%)
+    n0: 262432 in 4 places, all below massif's threshold (1.00%)
+   n0: 210838 in 27 places, all below massif's threshold (1.00%)
+  n2: 1642040 0xB8F3391: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+   n2: 1642040 0xB8F3B32: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+    n1: 1642040 0xB280314: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n1: 1642040 0xB2646FB: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+      n1: 1642040 0xB257DDB: __cuda_CallJitEntryPoint (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+       n1: 1642040 0x5A49D38: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 1642040 0x5A5BA16: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+         n1: 1642040 0x595C4E1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+          n1: 1642040 0x58925D9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+           n1: 1642040 0x5892CEA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+            n1: 1642040 0x489437B: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 1642040 0x488399D: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 1642040 0x489A8E3: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 1642040 0x489C511: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                n1: 1642040 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                 n1: 1642040 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                  n1: 1642040 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                   n1: 1642040 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                    n1: 1642040 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                     n0: 1642040 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 2182808 in 259 places, all below massif's threshold (1.00%)
+ n1: 1594720 0x595BA5B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 1594720 0x5A5C3C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 1396960 0x595C7C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 1103248 0x5AD491F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 1103248 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 1103248 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 1103248 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 1103248 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 1103248 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 1103248 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 1103248 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 1103248 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 1103248 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 1103248 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+               n1: 1103248 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                n0: 1103248 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+    n0: 293712 in 7 places, all below massif's threshold (1.00%)
+   n0: 197760 in 7 places, all below massif's threshold (1.00%)
+ n1: 1085056 0x582DD1F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 1085056 0x595B108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 1085056 0x5A5C3C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n2: 979584 0x595C7C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 828416 0x5AD491F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 828416 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 828416 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 828416 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 828416 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 828416 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 828416 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 828416 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 828416 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 828416 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 828416 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                n1: 828416 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                 n0: 828416 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+     n0: 151168 in 7 places, all below massif's threshold (1.00%)
+    n0: 105472 in 7 places, all below massif's threshold (1.00%)
+ n1: 917504 0x58C314D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 917504 0x59CDD86: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 917504 0x57AA4D4: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 458752 0x57ABE84: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 458752 0x5AD31C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 458752 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 458752 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 458752 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 458752 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 458752 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 458752 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 458752 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 458752 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 458752 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 458752 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                n1: 458752 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                 n0: 458752 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+    n1: 458752 0x57ABFCA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 458752 0x5AD31C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 458752 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 458752 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 458752 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 458752 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 458752 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 458752 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 458752 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 458752 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 458752 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 458752 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                n1: 458752 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                 n0: 458752 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n1: 655360 0x5AC5802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x58F8CFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x4D1E4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 655360 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+          n1: 655360 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+           n0: 655360 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n2: 528376 0x59C09C5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x57CB9CC: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x5AD364B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 524280 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+              n1: 524280 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+               n0: 524280 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+  n0: 4096 in 1 place, below massif's threshold (1.00%)
+ n1: 524280 0x57CB9B7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x5AD364B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+             n1: 524280 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+              n0: 524280 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n1: 524280 0x57CB9DD: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x5AD364B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+             n1: 524280 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+              n0: 524280 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n1: 331776 0x582DD80: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 331776 0x595B108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 331776 0x5A5C3C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n0: 331776 in 8 places, all below massif's threshold (1.00%)
+ n1: 295152 0x59E06C1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 295152 0x59E36D5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 295152 0x59E391A: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n0: 295152 in 6 places, all below massif's threshold (1.00%)
+ n1: 292600 0x582D538: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 292600 0x595B108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 292600 0x5A5C3C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 215992 0x595C7C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n0: 215992 in 8 places, all below massif's threshold (1.00%)
+    n0: 76608 in 7 places, all below massif's threshold (1.00%)
+ n2: 287292 0x10BDED: alloc_1d_dbl (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+  n1: 278936 0x10BE54: alloc_2d_dbl (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+   n0: 278936 in 4 places, all below massif's threshold (1.00%)
+  n0: 8356 in 6 places, all below massif's threshold (1.00%)
+ n1: 262140 0x57CB9A1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 262140 0x5AD364B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 262140 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 262140 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 262140 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 262140 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 262140 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 262140 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 262140 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 262140 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 262140 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 262140 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+             n1: 262140 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+              n0: 262140 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n1: 243432 0x599200E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 243432 0x5992B6B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n0: 243432 in 23 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=38
+#-----------
+time=238508223
+mem_heap_B=19654903
+mem_heap_extra_B=312193
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=239894679
+mem_heap_B=19720901
+mem_heap_extra_B=312291
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=241753058
+mem_heap_B=19922317
+mem_heap_extra_B=312715
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=243993599
+mem_heap_B=19922317
+mem_heap_extra_B=312715
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=245358107
+mem_heap_B=19922317
+mem_heap_extra_B=312715
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=247245971
+mem_heap_B=20022883
+mem_heap_extra_B=312933
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=250035934
+mem_heap_B=22397165
+mem_heap_extra_B=322131
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=266354409
+mem_heap_B=22402677
+mem_heap_extra_B=322283
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=267197827
+mem_heap_B=20859077
+mem_heap_extra_B=323035
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=280113499
+mem_heap_B=20856669
+mem_heap_extra_B=323187
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=281345379
+mem_heap_B=19969989
+mem_heap_extra_B=323923
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=283236984
+mem_heap_B=15335396
+mem_heap_extra_B=309796
+mem_stacks_B=0
+heap_tree=detailed
+n18: 15335396 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 5642911 0xB8FCEA3: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+  n3: 5573271 0xB8F3CD9: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+   n3: 2738096 0xB8F3E1E: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+    n0: 1807408 in 63 places, all below massif's threshold (1.00%)
+    n2: 733968 0xB8F4167: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n2: 720984 0xB8F1F7A: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+      n0: 393264 in 14 places, all below massif's threshold (1.00%)
+      n1: 327720 0xB8E8970: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+       n0: 327720 in 5 places, all below massif's threshold (1.00%)
+     n0: 12984 in 2 places, all below massif's threshold (1.00%)
+    n1: 196720 0xB8F11CA: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n1: 196720 0xB8F1FB6: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+      n0: 196720 in 4 places, all below massif's threshold (1.00%)
+   n4: 2621912 0xB8F3BAE: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+    n1: 1638008 0xB280314: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n1: 1638008 0xB2646FB: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+      n1: 1638008 0xB257DDB: __cuda_CallJitEntryPoint (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+       n1: 1638008 0x5A49D38: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 1638008 0x5A5BA16: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+         n1: 1638008 0x595C4E1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+          n1: 1638008 0x58925D9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+           n1: 1638008 0x5892CEA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+            n1: 1638008 0x489437B: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 1638008 0x488399D: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 1638008 0x489A8E3: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 1638008 0x489C511: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                n1: 1638008 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                 n1: 1638008 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                  n1: 1638008 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                   n1: 1638008 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                    n1: 1638008 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                     n0: 1638008 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+    n2: 524672 0xB523E72: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n1: 459032 0xB523B6D: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+      n1: 459032 0xB523D5D: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+       n2: 459032 0xB523DA7: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+        n1: 262248 0xB523B6D: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+         n1: 262248 0xB523D5D: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+          n1: 262248 0xB523DA7: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+           n1: 262248 0xB523ED2: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+            n1: 262248 0xB27CBF7: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+             n1: 262248 0xB8BB7CE: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+              n1: 262248 0xB27E4FB: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+               n1: 262248 0xB258AA7: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+                n1: 262248 0xB8EFE3C: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+                 n1: 262248 0xB2627B3: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+                  n1: 262248 0xB264746: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+                   n1: 262248 0xB257DDB: __cuda_CallJitEntryPoint (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+                    n1: 262248 0x5A49D38: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+                     n1: 262248 0x5A5BA16: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+                      n1: 262248 0x595C4E1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+                       n1: 262248 0x58925D9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+                        n1: 262248 0x5892CEA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+                         n1: 262248 0x489437B: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                          n1: 262248 0x488399D: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                           n1: 262248 0x489A8E3: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                            n1: 262248 0x489C511: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                             n1: 262248 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                              n0: 262248 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 196784 0xB523ED2: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+         n1: 196784 0xB27CBF7: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+          n0: 196784 in 2 places, all below massif's threshold (1.00%)
+     n0: 65640 in 1 place, below massif's threshold (1.00%)
+    n2: 328016 0xB5232F6: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n1: 262408 0xB523D2C: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+      n1: 262408 0xB523DA7: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+       n0: 262408 in 2 places, all below massif's threshold (1.00%)
+     n0: 65608 in 1 place, below massif's threshold (1.00%)
+    n0: 131216 in 10 places, all below massif's threshold (1.00%)
+   n0: 213263 in 31 places, all below massif's threshold (1.00%)
+  n0: 69640 in 1 place, below massif's threshold (1.00%)
+ n0: 1648853 in 256 places, all below massif's threshold (1.00%)
+ n1: 1594720 0x595BA5B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 1594720 0x5A5C3C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 1396960 0x595C7C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 1103248 0x5AD491F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 1103248 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 1103248 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 1103248 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 1103248 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 1103248 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 1103248 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 1103248 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 1103248 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 1103248 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 1103248 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+               n1: 1103248 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                n0: 1103248 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+    n0: 293712 in 7 places, all below massif's threshold (1.00%)
+   n0: 197760 in 7 places, all below massif's threshold (1.00%)
+ n1: 1085056 0x582DD1F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 1085056 0x595B108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 1085056 0x5A5C3C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n2: 979584 0x595C7C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 828416 0x5AD491F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 828416 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 828416 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 828416 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 828416 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 828416 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 828416 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 828416 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 828416 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 828416 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 828416 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                n1: 828416 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                 n0: 828416 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+     n0: 151168 in 7 places, all below massif's threshold (1.00%)
+    n0: 105472 in 7 places, all below massif's threshold (1.00%)
+ n1: 917504 0x58C314D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 917504 0x59CDD86: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 917504 0x57AA4D4: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 458752 0x57ABE84: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 458752 0x5AD31C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 458752 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 458752 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 458752 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 458752 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 458752 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 458752 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 458752 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 458752 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 458752 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 458752 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                n1: 458752 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                 n0: 458752 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+    n1: 458752 0x57ABFCA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 458752 0x5AD31C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 458752 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 458752 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 458752 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 458752 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 458752 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 458752 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 458752 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 458752 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 458752 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 458752 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                n1: 458752 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                 n0: 458752 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n1: 655360 0x5AC5802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x58F8CFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x4D1E4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 655360 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+          n1: 655360 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+           n0: 655360 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n2: 528376 0x59C09C5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x57CB9CC: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x5AD364B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 524280 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+              n1: 524280 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+               n0: 524280 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+  n0: 4096 in 1 place, below massif's threshold (1.00%)
+ n1: 524280 0x57CB9B7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x5AD364B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+             n1: 524280 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+              n0: 524280 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n1: 524280 0x57CB9DD: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x5AD364B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+             n1: 524280 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+              n0: 524280 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n1: 331776 0x582DD80: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 331776 0x595B108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 331776 0x5A5C3C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 176128 0x58C115A: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 176128 0x57F4194: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 176128 0x5AD3B2B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 176128 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 176128 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+         n1: 176128 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 176128 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 176128 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 176128 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 176128 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 176128 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 176128 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                n1: 176128 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                 n1: 176128 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+                  n0: 176128 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+    n0: 155648 in 7 places, all below massif's threshold (1.00%)
+ n1: 295152 0x59E06C1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 295152 0x59E36D5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 295152 0x59E391A: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n0: 295152 in 6 places, all below massif's threshold (1.00%)
+ n1: 292600 0x582D538: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 292600 0x595B108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 292600 0x5A5C3C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 215992 0x595C7C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n0: 215992 in 8 places, all below massif's threshold (1.00%)
+    n0: 76608 in 7 places, all below massif's threshold (1.00%)
+ n2: 287292 0x10BDED: alloc_1d_dbl (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+  n1: 278936 0x10BE54: alloc_2d_dbl (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+   n0: 278936 in 4 places, all below massif's threshold (1.00%)
+  n0: 8356 in 6 places, all below massif's threshold (1.00%)
+ n1: 262140 0x57CB9A1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 262140 0x5AD364B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 262140 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 262140 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 262140 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 262140 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 262140 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 262140 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 262140 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 262140 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 262140 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 262140 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+             n1: 262140 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+              n0: 262140 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n1: 243432 0x599200E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 243432 0x5992B6B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 176640 0x5A4D70D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n0: 176640 in 2 places, all below massif's threshold (1.00%)
+   n0: 66792 in 22 places, all below massif's threshold (1.00%)
+ n1: 168960 0x5855D79: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 168960 0x57D0CED: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 168960 0x5AC561C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 168960 0x58F8CFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 168960 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 168960 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 168960 0x4D1E4DE: __pthread_once_slow (pthread_once.c:116)
+        n1: 168960 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 168960 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 168960 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 168960 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+            n1: 168960 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+             n0: 168960 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+ n1: 168568 0x591F1FD: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n0: 168568 in 3 places, all below massif's threshold (1.00%)
+ n1: 164136 0x587B56E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 164136 0x5AD47C9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 164136 0x57E9D1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 164136 0x58F75F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 164136 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 164136 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 164136 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 164136 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 164136 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 164136 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 164136 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 164136 0x10B175: bpnn_train_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+             n1: 164136 0x10CDAD: backprop_face (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+              n0: 164136 0x10AF03: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/backprop/backprop_cuda)
+#-----------
+snapshot=50
+#-----------
+time=284113477
+mem_heap_B=9828598
+mem_heap_extra_B=296226
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=285694139
+mem_heap_B=9543353
+mem_heap_extra_B=296791
+mem_stacks_B=0
+heap_tree=empty
