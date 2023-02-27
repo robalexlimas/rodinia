@@ -1,0 +1,1550 @@
+desc: (none)
+cmd: ./b+tree file ../../data/b+tree/mil.txt command ../../data/b+tree/command.txt
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=159767984
+mem_heap_B=1959615
+mem_heap_extra_B=617449
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=287088153
+mem_heap_B=2479563
+mem_heap_extra_B=984613
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=475886427
+mem_heap_B=3246299
+mem_heap_extra_B=1531445
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=611383372
+mem_heap_B=3795623
+mem_heap_extra_B=1921457
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=703435489
+mem_heap_B=4164535
+mem_heap_extra_B=2184625
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=900521075
+mem_heap_B=4944647
+mem_heap_extra_B=2736481
+mem_stacks_B=0
+heap_tree=detailed
+n7: 4944647 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 2123776 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 2103296 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 2103296 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 20480 in 3 places, all below massif's threshold (1.00%)
+ n2: 1057740 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 1047540 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 1047540 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 10200 in 3 places, all below massif's threshold (1.00%)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n0: 655360 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n1: 526336 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 526336 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n0: 281403 in 118 places, all below massif's threshold (1.00%)
+ n1: 168960 0x564BD79: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 168960 0x55C6CED: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 168960 0x58BB61C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 168960 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 168960 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 168960 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 168960 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+        n1: 168960 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 168960 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 168960 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n0: 168960 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n1: 131072 0x57184CF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 131072 0x571940B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 131072 0x58BB35E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 131072 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 131072 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 131072 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 131072 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+        n1: 131072 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 131072 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 131072 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n0: 131072 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=7
+#-----------
+time=1072997194
+mem_heap_B=5642795
+mem_heap_extra_B=3234965
+mem_stacks_B=0
+heap_tree=detailed
+n7: 5642795 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 2519040 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 2496512 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 2496512 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 22528 in 3 places, all below massif's threshold (1.00%)
+ n2: 1254600 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 1243380 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 1243380 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 11220 in 3 places, all below massif's threshold (1.00%)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n0: 655360 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n1: 624640 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 624640 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n0: 289123 in 118 places, all below massif's threshold (1.00%)
+ n1: 168960 0x564BD79: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 168960 0x55C6CED: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 168960 0x58BB61C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 168960 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 168960 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 168960 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 168960 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+        n1: 168960 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 168960 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 168960 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n0: 168960 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n1: 131072 0x57184CF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 131072 0x571940B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 131072 0x58BB35E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 131072 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 131072 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 131072 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 131072 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+        n1: 131072 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 131072 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 131072 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n0: 131072 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=8
+#-----------
+time=1168689787
+mem_heap_B=6016139
+mem_heap_extra_B=3504613
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=1317514354
+mem_heap_B=6605743
+mem_heap_extra_B=3925481
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=1399928036
+mem_heap_B=6931011
+mem_heap_extra_B=4156461
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=1526973312
+mem_heap_B=7439887
+mem_heap_extra_B=4514937
+mem_stacks_B=0
+heap_tree=detailed
+n7: 7439887 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 3536896 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 3506176 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 3506176 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 30720 in 3 places, all below massif's threshold (1.00%)
+ n2: 1761540 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 1746240 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 1746240 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 15300 in 3 places, all below massif's threshold (1.00%)
+ n1: 877056 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 877056 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n0: 655360 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n0: 309003 in 118 places, all below massif's threshold (1.00%)
+ n1: 168960 0x564BD79: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 168960 0x55C6CED: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 168960 0x58BB61C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 168960 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 168960 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 168960 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 168960 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+        n1: 168960 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 168960 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 168960 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n0: 168960 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n1: 131072 0x57184CF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 131072 0x571940B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 131072 0x58BB35E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 131072 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 131072 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 131072 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 131072 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+        n1: 131072 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 131072 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 131072 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n0: 131072 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=12
+#-----------
+time=1677836559
+mem_heap_B=8033055
+mem_heap_extra_B=4938121
+mem_stacks_B=0
+heap_tree=detailed
+n7: 8033055 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 3872768 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 3840000 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 3840000 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 32768 in 3 places, all below massif's threshold (1.00%)
+ n2: 1928820 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 1912500 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 1912500 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 16320 in 3 places, all below massif's threshold (1.00%)
+ n1: 960512 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 960512 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n0: 655360 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n0: 315563 in 118 places, all below massif's threshold (1.00%)
+ n1: 168960 0x564BD79: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 168960 0x55C6CED: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 168960 0x58BB61C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 168960 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 168960 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 168960 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 168960 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+        n1: 168960 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 168960 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 168960 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n0: 168960 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n1: 131072 0x57184CF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 131072 0x571940B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 131072 0x58BB35E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 131072 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 131072 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 131072 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 131072 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+        n1: 131072 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 131072 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 131072 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n0: 131072 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=13
+#-----------
+time=1776720081
+mem_heap_B=8420447
+mem_heap_extra_B=5215993
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=1901788610
+mem_heap_B=8908995
+mem_heap_extra_B=5565693
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=2067336663
+mem_heap_B=9551919
+mem_heap_extra_B=6020761
+mem_stacks_B=0
+heap_tree=detailed
+n6: 9551919 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 4732928 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 4694016 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 4694016 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 38912 in 3 places, all below massif's threshold (1.00%)
+ n2: 2357220 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 2337840 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 2337840 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 19380 in 3 places, all below massif's threshold (1.00%)
+ n1: 1174016 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 1174016 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n0: 655360 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n0: 463435 in 119 places, all below massif's threshold (1.00%)
+ n1: 168960 0x564BD79: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 168960 0x55C6CED: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 168960 0x58BB61C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 168960 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 168960 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 168960 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 168960 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+        n1: 168960 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 168960 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 168960 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n0: 168960 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=16
+#-----------
+time=2212545567
+mem_heap_B=10122855
+mem_heap_extra_B=6425809
+mem_stacks_B=0
+heap_tree=detailed
+n6: 10122855 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 5056512 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 5013504 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 5013504 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 43008 in 3 places, all below massif's threshold (1.00%)
+ n2: 2518380 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 2496960 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 2496960 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 21420 in 3 places, all below massif's threshold (1.00%)
+ n1: 1253888 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 1253888 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n0: 655360 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n0: 469755 in 119 places, all below massif's threshold (1.00%)
+ n1: 168960 0x564BD79: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 168960 0x55C6CED: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 168960 0x58BB61C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 168960 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 168960 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 168960 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 168960 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+        n1: 168960 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 168960 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 168960 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n0: 168960 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=17
+#-----------
+time=2390077233
+mem_heap_B=10814707
+mem_heap_extra_B=6923645
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=2500030306
+mem_heap_B=11244703
+mem_heap_extra_B=7228649
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=2672671470
+mem_heap_B=11899703
+mem_heap_extra_B=7697425
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=2803084932
+mem_heap_B=12405567
+mem_heap_extra_B=8056185
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=2929827585
+mem_heap_B=12903563
+mem_heap_extra_B=8406773
+mem_stacks_B=0
+heap_tree=detailed
+n5: 12903563 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 6631424 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 6576128 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 6576128 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 55296 in 3 places, all below massif's threshold (1.00%)
+ n2: 3302760 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 3275220 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 3275220 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 27540 in 3 places, all below massif's threshold (1.00%)
+ n1: 1644544 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 1644544 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n0: 669475 in 120 places, all below massif's threshold (1.00%)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n0: 655360 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=22
+#-----------
+time=3061233386
+mem_heap_B=13413471
+mem_heap_extra_B=8770249
+mem_stacks_B=0
+heap_tree=detailed
+n5: 13413471 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 6920192 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 6862848 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 6862848 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 57344 in 3 places, all below massif's threshold (1.00%)
+ n2: 3446580 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 3418020 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 3418020 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 28560 in 3 places, all below massif's threshold (1.00%)
+ n1: 1716224 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 1716224 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n0: 675115 in 120 places, all below massif's threshold (1.00%)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n0: 655360 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=23
+#-----------
+time=3163004245
+mem_heap_B=13793695
+mem_heap_extra_B=9043289
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=3267585492
+mem_heap_B=14199059
+mem_heap_extra_B=9333661
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=3419725162
+mem_heap_B=14787535
+mem_heap_extra_B=9749049
+mem_stacks_B=0
+heap_tree=detailed
+n5: 14787535 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 7698432 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 7634944 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 7634944 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 63488 in 3 places, all below massif's threshold (1.00%)
+ n2: 3834180 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 3802560 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 3802560 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 31620 in 3 places, all below massif's threshold (1.00%)
+ n1: 1909248 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 1909248 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n0: 690315 in 120 places, all below massif's threshold (1.00%)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n0: 655360 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=26
+#-----------
+time=3527995667
+mem_heap_B=15186783
+mem_heap_extra_B=10039689
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=3687667864
+mem_heap_B=15811835
+mem_heap_extra_B=10482757
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=3816096760
+mem_heap_B=16306399
+mem_heap_extra_B=10831689
+mem_stacks_B=0
+heap_tree=detailed
+n5: 16306399 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 8558592 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 8488960 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 8488960 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 69632 in 3 places, all below massif's threshold (1.00%)
+ n2: 4262580 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 4227900 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 4227900 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 34680 in 3 places, all below massif's threshold (1.00%)
+ n1: 2122752 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 2122752 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n0: 707115 in 120 places, all below massif's threshold (1.00%)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n0: 655360 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=29
+#-----------
+time=3987714020
+mem_heap_B=16953867
+mem_heap_extra_B=11293813
+mem_stacks_B=0
+heap_tree=detailed
+n5: 16953867 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 8925184 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 8853504 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 8853504 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 71680 in 3 places, all below massif's threshold (1.00%)
+ n2: 4445160 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 4409460 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 4409460 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 35700 in 3 places, all below massif's threshold (1.00%)
+ n1: 2213888 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 2213888 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n0: 714275 in 120 places, all below massif's threshold (1.00%)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n0: 655360 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=30
+#-----------
+time=4114817393
+mem_heap_B=17428615
+mem_heap_extra_B=11636369
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=4251641700
+mem_heap_B=17942123
+mem_heap_extra_B=12002341
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=4392138089
+mem_heap_B=18473139
+mem_heap_extra_B=12378333
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=4538717777
+mem_heap_B=19033595
+mem_heap_extra_B=12777509
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=4738013437
+mem_heap_B=19778703
+mem_heap_extra_B=13309225
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=4894584490
+mem_heap_B=20364223
+mem_heap_extra_B=13725177
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=5016292160
+mem_heap_B=20822659
+mem_heap_extra_B=14048509
+mem_stacks_B=0
+heap_tree=detailed
+n5: 20822659 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 11116544 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 11026432 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 11026432 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 90112 in 3 places, all below massif's threshold (1.00%)
+ n2: 5536560 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 5491680 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 5491680 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 44880 in 3 places, all below massif's threshold (1.00%)
+ n1: 2757120 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 2757120 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n0: 757075 in 120 places, all below massif's threshold (1.00%)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n0: 655360 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=37
+#-----------
+time=5127755095
+mem_heap_B=21235339
+mem_heap_extra_B=14344453
+mem_stacks_B=0
+heap_tree=detailed
+n5: 21235339 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 11350016 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 11259904 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 11259904 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 90112 in 3 places, all below massif's threshold (1.00%)
+ n2: 5652840 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 5607960 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 5607960 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 44880 in 3 places, all below massif's threshold (1.00%)
+ n1: 2815488 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 2815488 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n0: 761635 in 120 places, all below massif's threshold (1.00%)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n0: 655360 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=38
+#-----------
+time=5291757993
+mem_heap_B=21853903
+mem_heap_extra_B=14785929
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=5405559605
+mem_heap_B=22273495
+mem_heap_extra_B=15085425
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=5531805586
+mem_heap_B=22746451
+mem_heap_extra_B=15419341
+mem_stacks_B=0
+heap_tree=detailed
+n5: 22746451 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 12206080 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 12107776 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 12107776 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 98304 in 3 places, all below massif's threshold (1.00%)
+ n2: 6079200 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 6030240 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 6030240 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 48960 in 3 places, all below massif's threshold (1.00%)
+ n1: 3027456 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 3027456 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n0: 778355 in 120 places, all below massif's threshold (1.00%)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n0: 655360 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=41
+#-----------
+time=5654061582
+mem_heap_B=23198439
+mem_heap_extra_B=15741281
+mem_stacks_B=0
+heap_tree=detailed
+n5: 23198439 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 12462080 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 12361728 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 12361728 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 100352 in 3 places, all below massif's threshold (1.00%)
+ n2: 6206700 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 6156720 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 6156720 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 49980 in 3 places, all below massif's threshold (1.00%)
+ n1: 3090944 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 3090944 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n0: 783355 in 120 places, all below massif's threshold (1.00%)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n0: 655360 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=42
+#-----------
+time=5778365813
+mem_heap_B=23657667
+mem_heap_extra_B=16068413
+mem_stacks_B=0
+heap_tree=detailed
+n5: 23657667 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 12722176 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 12619776 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 12619776 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 102400 in 3 places, all below massif's threshold (1.00%)
+ n2: 6336240 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 6285240 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 6285240 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 51000 in 3 places, all below massif's threshold (1.00%)
+ n1: 3155456 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 3155456 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n0: 788435 in 120 places, all below massif's threshold (1.00%)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n0: 655360 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=43
+#-----------
+time=5905613831
+mem_heap_B=24127755
+mem_heap_extra_B=16403333
+mem_stacks_B=0
+heap_tree=detailed
+n5: 24127755 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 12988416 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 12883968 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 12883968 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 104448 in 3 places, all below massif's threshold (1.00%)
+ n2: 6468840 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 6416820 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 6416820 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 52020 in 3 places, all below massif's threshold (1.00%)
+ n1: 3221504 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 3221504 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n0: 793635 in 120 places, all below massif's threshold (1.00%)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n0: 655360 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=44
+#-----------
+time=6035838158
+mem_heap_B=24608703
+mem_heap_extra_B=16746041
+mem_stacks_B=0
+heap_tree=detailed
+n5: 24608703 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 13260800 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 13154304 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 13154304 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 106496 in 3 places, all below massif's threshold (1.00%)
+ n2: 6604500 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 6551460 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 6551460 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 53040 in 3 places, all below massif's threshold (1.00%)
+ n1: 3289088 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 3289088 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n0: 798955 in 120 places, all below massif's threshold (1.00%)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n0: 655360 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=45
+#-----------
+time=6154044495
+mem_heap_B=25036199
+mem_heap_extra_B=17053889
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=6288291281
+mem_heap_B=25531595
+mem_heap_extra_B=17406821
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=6442500792
+mem_heap_B=26105847
+mem_heap_extra_B=17813105
+mem_stacks_B=0
+heap_tree=detailed
+n5: 26105847 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 14108672 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 13996032 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 13996032 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 112640 in 3 places, all below massif's threshold (1.00%)
+ n2: 7026780 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 6970680 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 6970680 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 56100 in 3 places, all below massif's threshold (1.00%)
+ n1: 3499520 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 3499520 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n0: 815515 in 120 places, all below massif's threshold (1.00%)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n0: 655360 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=48
+#-----------
+time=6583834462
+mem_heap_B=26622995
+mem_heap_extra_B=18181773
+mem_stacks_B=0
+heap_tree=detailed
+n5: 26622995 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 14401536 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 14286848 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 14286848 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 114688 in 3 places, all below massif's threshold (1.00%)
+ n2: 7172640 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 7115520 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 7115520 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 57120 in 3 places, all below massif's threshold (1.00%)
+ n1: 3572224 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 3572224 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n0: 821235 in 120 places, all below massif's threshold (1.00%)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n0: 655360 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=49
+#-----------
+time=6636598431
+mem_heap_B=26801243
+mem_heap_extra_B=18313157
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=6658497751
+mem_heap_B=26886743
+mem_heap_extra_B=18368721
+mem_stacks_B=0
+heap_tree=detailed
+n5: 26886743 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 14551040 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 14434304 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 14434304 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 116736 in 3 places, all below massif's threshold (1.00%)
+ n2: 7247100 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 7188960 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 7188960 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 58140 in 3 places, all below massif's threshold (1.00%)
+ n1: 3609088 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 3609088 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n0: 824155 in 120 places, all below massif's threshold (1.00%)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n0: 655360 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=51
+#-----------
+time=6728881542
+mem_heap_B=27151003
+mem_heap_extra_B=18558229
+mem_stacks_B=0
+heap_tree=detailed
+n5: 27151003 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 14700544 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 14583808 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 14583808 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 116736 in 3 places, all below massif's threshold (1.00%)
+ n2: 7321560 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 7263420 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 7263420 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 58140 in 3 places, all below massif's threshold (1.00%)
+ n1: 3646464 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 3646464 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n0: 827075 in 120 places, all below massif's threshold (1.00%)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n0: 655360 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=52
+#-----------
+time=6803857338
+mem_heap_B=27421991
+mem_heap_extra_B=18750369
+mem_stacks_B=0
+heap_tree=detailed
+n5: 27421991 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 14854144 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 14735360 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 14735360 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 118784 in 3 places, all below massif's threshold (1.00%)
+ n2: 7398060 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 7338900 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 7338900 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 59160 in 3 places, all below massif's threshold (1.00%)
+ n1: 3684352 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 3684352 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n0: 830075 in 120 places, all below massif's threshold (1.00%)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n0: 655360 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=53
+#-----------
+time=6879002264
+mem_heap_B=27693491
+mem_heap_extra_B=18945069
+mem_stacks_B=0
+heap_tree=detailed
+n5: 27693491 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 15007744 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 14888960 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 14888960 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 118784 in 3 places, all below massif's threshold (1.00%)
+ n2: 7474560 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 7415400 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 7415400 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 59160 in 3 places, all below massif's threshold (1.00%)
+ n1: 3722752 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 3722752 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n0: 833075 in 120 places, all below massif's threshold (1.00%)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n0: 655360 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=54
+#-----------
+time=6953082935
+mem_heap_B=27968099
+mem_heap_extra_B=19139805
+mem_stacks_B=0
+heap_tree=detailed
+n5: 27968099 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 15163392 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 15042560 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 15042560 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 120832 in 3 places, all below massif's threshold (1.00%)
+ n2: 7552080 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 7491900 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 7491900 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 60180 in 3 places, all below massif's threshold (1.00%)
+ n1: 3761152 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 3761152 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n0: 836115 in 120 places, all below massif's threshold (1.00%)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n0: 655360 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=55
+#-----------
+time=7032442434
+mem_heap_B=28243219
+mem_heap_extra_B=19337101
+mem_stacks_B=0
+heap_tree=detailed
+n5: 28243219 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 15319040 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 15198208 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 15198208 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 120832 in 3 places, all below massif's threshold (1.00%)
+ n2: 7629600 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 7569420 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 7569420 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 60180 in 3 places, all below massif's threshold (1.00%)
+ n1: 3800064 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 3800064 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n0: 839155 in 120 places, all below massif's threshold (1.00%)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n0: 655360 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=56
+#-----------
+time=7106547480
+mem_heap_B=28525067
+mem_heap_extra_B=19537029
+mem_stacks_B=0
+heap_tree=detailed
+n5: 28525067 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 15478784 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 15355904 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 15355904 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 122880 in 3 places, all below massif's threshold (1.00%)
+ n2: 7709160 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 7647960 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 7647960 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 61200 in 3 places, all below massif's threshold (1.00%)
+ n1: 3839488 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 3839488 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n0: 842275 in 120 places, all below massif's threshold (1.00%)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n0: 655360 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=57
+#-----------
+time=7185378323
+mem_heap_B=28806915
+mem_heap_extra_B=19736957
+mem_stacks_B=0
+heap_tree=detailed
+n5: 28806915 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 15638528 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 15513600 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 15513600 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 124928 in 3 places, all below massif's threshold (1.00%)
+ n2: 7788720 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 7726500 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 7726500 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 62220 in 3 places, all below massif's threshold (1.00%)
+ n1: 3878912 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 3878912 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n0: 845395 in 120 places, all below massif's threshold (1.00%)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n0: 655360 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=58
+#-----------
+time=7264671470
+mem_heap_B=29092895
+mem_heap_extra_B=19942041
+mem_stacks_B=0
+heap_tree=detailed
+n5: 29092895 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 15800320 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 15675392 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 15675392 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 124928 in 3 places, all below massif's threshold (1.00%)
+ n2: 7869300 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 7807080 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 7807080 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 62220 in 3 places, all below massif's threshold (1.00%)
+ n1: 3919360 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 3919360 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n0: 848555 in 120 places, all below massif's threshold (1.00%)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n0: 655360 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=59
+#-----------
+time=7343094647
+mem_heap_B=29381983
+mem_heap_extra_B=20147161
+mem_stacks_B=0
+heap_tree=detailed
+n5: 29381983 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 15964160 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 15837184 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 15837184 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 126976 in 3 places, all below massif's threshold (1.00%)
+ n2: 7950900 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 7887660 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 7887660 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 63240 in 3 places, all below massif's threshold (1.00%)
+ n1: 3959808 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 3959808 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n0: 851755 in 120 places, all below massif's threshold (1.00%)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48A873F: cudaSetDevice (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n0: 655360 0x10A690: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=60
+#-----------
+time=7561928618
+mem_heap_B=91845751
+mem_heap_extra_B=20353609
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=7562830397
+mem_heap_B=94077939
+mem_heap_extra_B=20355693
+mem_stacks_B=0
+heap_tree=detailed
+n5: 94077939 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 62137684 0x10C126: transform_to_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 62137684 0x10A90A: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n2: 16125952 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 15996928 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 15996928 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 129024 in 3 places, all below massif's threshold (1.00%)
+ n2: 8031480 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 7967220 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 7967220 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 64260 in 3 places, all below massif's threshold (1.00%)
+ n1: 4000000 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 4000000 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n0: 3782823 in 155 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=62
+#-----------
+time=7563407489
+mem_heap_B=95268455
+mem_heap_extra_B=20362513
+mem_stacks_B=0
+heap_tree=detailed
+n5: 95268455 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 62137684 0x10C126: transform_to_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 62137684 0x10A90A: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n2: 16125952 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 15996928 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 15996928 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 129024 in 3 places, all below massif's threshold (1.00%)
+ n2: 8031480 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 7967220 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 7967220 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 64260 in 3 places, all below massif's threshold (1.00%)
+ n0: 4973339 in 177 places, all below massif's threshold (1.00%)
+ n1: 4000000 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 4000000 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=63
+#-----------
+time=7564947474
+mem_heap_B=96994276
+mem_heap_extra_B=20396900
+mem_stacks_B=0
+heap_tree=detailed
+n5: 96994276 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 62137684 0x10C126: transform_to_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 62137684 0x10A90A: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n2: 16125952 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 15996928 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 15996928 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 129024 in 3 places, all below massif's threshold (1.00%)
+ n2: 8031480 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 7967220 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 7967220 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 64260 in 3 places, all below massif's threshold (1.00%)
+ n0: 6699160 in 224 places, all below massif's threshold (1.00%)
+ n1: 4000000 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 4000000 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=64
+#-----------
+time=7566944288
+mem_heap_B=98147574
+mem_heap_extra_B=20417922
+mem_stacks_B=0
+heap_tree=detailed
+n5: 98147574 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 62137684 0x10C126: transform_to_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 62137684 0x10A90A: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n2: 16125952 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 15996928 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 15996928 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 129024 in 3 places, all below massif's threshold (1.00%)
+ n2: 8031480 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 7967220 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 7967220 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 64260 in 3 places, all below massif's threshold (1.00%)
+ n0: 7852458 in 232 places, all below massif's threshold (1.00%)
+ n1: 4000000 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 4000000 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=65
+#-----------
+time=7573854552
+mem_heap_B=100367276
+mem_heap_extra_B=20448252
+mem_stacks_B=0
+heap_tree=detailed
+n6: 100367276 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 62137684 0x10C126: transform_to_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 62137684 0x10A90A: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n2: 16125952 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 15996928 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 15996928 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 129024 in 3 places, all below massif's threshold (1.00%)
+ n2: 8031480 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 7967220 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 7967220 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 64260 in 3 places, all below massif's threshold (1.00%)
+ n0: 7975008 in 233 places, all below massif's threshold (1.00%)
+ n1: 4000000 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 4000000 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n1: 2097152 0x561CF39: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 2097152 0x57527FF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 2097152 0x58CA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 2097152 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 2097152 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 2097152 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 2097152 0x489B984: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 2097152 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 2097152 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 2097152 0x48718E9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 2097152 0x48A6B74: cudaThreadSynchronize (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 2097152 0x10EEEA: kernel_gpu_cuda_wrapper_2 (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+             n0: 2097152 0x10AEC6: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=66
+#-----------
+time=7577627614
+mem_heap_B=102156471
+mem_heap_extra_B=20463313
+mem_stacks_B=0
+heap_tree=detailed
+n7: 102156471 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 62137684 0x10C126: transform_to_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 62137684 0x10A90A: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n2: 16125952 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 15996928 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 15996928 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 129024 in 3 places, all below massif's threshold (1.00%)
+ n2: 8031480 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 7967220 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 7967220 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 64260 in 3 places, all below massif's threshold (1.00%)
+ n0: 7277323 in 234 places, all below massif's threshold (1.00%)
+ n1: 4000000 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 4000000 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n1: 3350544 0x5691B71: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 3350544 0x5671590: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 3350544 0x58CA7C9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 3350544 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 3350544 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 3350544 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 3350544 0x489B984: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 3350544 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 3350544 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 3350544 0x48718E9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 3350544 0x48A6B74: cudaThreadSynchronize (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 3350544 0x10EEEA: kernel_gpu_cuda_wrapper_2 (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+             n0: 3350544 0x10AEC6: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n1: 1233488 0x5751A5B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 1233488 0x58523C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 1233488 0x57527C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n0: 1233488 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=67
+#-----------
+time=7599352368
+mem_heap_B=116964303
+mem_heap_extra_B=20467529
+mem_stacks_B=0
+heap_tree=peak
+n6: 116964303 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 62137684 0x10C126: transform_to_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 62137684 0x10A90A: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n1: 18153664 0x5671C20: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 18153664 0x58CA7C9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 18153664 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 18153664 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 18153664 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 18153664 0x489B984: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 18153664 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 18153664 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 18153664 0x48718E9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 18153664 0x48A6B74: cudaThreadSynchronize (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 18153664 0x10EEEA: kernel_gpu_cuda_wrapper_2 (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+            n0: 18153664 0x10AEC6: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n2: 16125952 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 15996928 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 15996928 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 129024 in 3 places, all below massif's threshold (1.00%)
+ n0: 8515523 in 238 places, all below massif's threshold (1.00%)
+ n2: 8031480 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 7967220 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 7967220 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 64260 in 3 places, all below massif's threshold (1.00%)
+ n1: 4000000 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 4000000 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+#-----------
+snapshot=68
+#-----------
+time=7696378972
+mem_heap_B=107742758
+mem_heap_extra_B=20512058
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=7780471459
+mem_heap_B=108478958
+mem_heap_extra_B=20513650
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=7895750097
+mem_heap_B=107335641
+mem_heap_extra_B=20511391
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=7982802140
+mem_heap_B=108173555
+mem_heap_extra_B=20513365
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=8089774600
+mem_heap_B=113000779
+mem_heap_extra_B=20524149
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=8218747208
+mem_heap_B=101430133
+mem_heap_extra_B=20500899
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=8470966085
+mem_heap_B=101430133
+mem_heap_extra_B=20500899
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=8678587352
+mem_heap_B=101430133
+mem_heap_extra_B=20500899
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=8884106682
+mem_heap_B=101430133
+mem_heap_extra_B=20500899
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=8974822519
+mem_heap_B=101426117
+mem_heap_extra_B=20500899
+mem_stacks_B=0
+heap_tree=detailed
+n7: 101426117 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 62137684 0x10C126: transform_to_cuda (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 62137684 0x10A90A: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n2: 16125952 0x10CFFB: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 15996928 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 15996928 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 129024 in 3 places, all below massif's threshold (1.00%)
+ n2: 8031480 0x10CFE1: make_node (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n1: 7967220 0x10D366: insert_into_leaf_after_splitting (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+   n0: 7967220 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 64260 in 3 places, all below massif's threshold (1.00%)
+ n0: 7820561 in 300 places, all below massif's threshold (1.00%)
+ n1: 4000000 0x10D9D1: insert (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+  n0: 4000000 0x10A8DD: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+ n2: 1685968 0x2C6FBEA3: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+  n2: 1642040 0x2C6F2391: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+   n2: 1642040 0x2C6F2B32: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+    n1: 1642040 0x2C07F314: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+     n1: 1642040 0x2C0636FB: ??? (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+      n1: 1642040 0x2C056DDB: __cuda_CallJitEntryPoint (in /usr/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.510.108.03)
+       n1: 1642040 0x583FD38: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 1642040 0x5851A16: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+         n1: 1642040 0x57524E1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+          n1: 1642040 0x56885D9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+           n1: 1642040 0x5688CEA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+            n1: 1642040 0x489437B: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 1642040 0x488399D: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 1642040 0x489A8E3: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 1642040 0x489C511: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                n1: 1642040 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                 n1: 1642040 0x48718E9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                  n1: 1642040 0x48A6B74: cudaThreadSynchronize (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                   n1: 1642040 0x10EEEA: kernel_gpu_cuda_wrapper_2 (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+                    n0: 1642040 0x10AEC6: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/b+tree/b+tree)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 43928 in 1 place, below massif's threshold (1.00%)
+ n2: 1624472 0x5751A5B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 1594720 0x58523C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 1396960 0x57527C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n0: 1396960 in 8 places, all below massif's threshold (1.00%)
+   n0: 197760 in 7 places, all below massif's threshold (1.00%)
+  n0: 29752 in 1 place, below massif's threshold (1.00%)

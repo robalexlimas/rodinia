@@ -1,5 +1,32 @@
 #!/usr/bin/env bash
-set -ue
+export PATH=$PATH:/usr/local/cuda/bin
+export CUDA_INSTALL_PATH=/usr/local/cuda
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+export OUTPUT=1
 
-OUTPUT=1 ./run
-diff output.txt ../../results/bfs/output.txt
+cd $1
+source setup_environment
+
+cd $2
+ldd bfs
+
+./bfs ../../data/bfs/graph1M.txt
+if [ -f $2/output.txt ]
+then
+    DIFF=$(diff output.txt output_gpu.txt) 
+    if [ "$DIFF" ] 
+    then
+        diff --suppress-common-lines output.txt output_gpu.txt > diff.txt
+        mv diff.txt /injector/results
+        echo "WARNING: SDC"
+    else
+        echo "INFO: MASKED"
+    fi
+else
+    echo "ERROR: DUE"
+fi
+rm bfs.sm_*
+rm config_*
+rm gpgpu*
+rm _*
+rm -rf checkpoints/

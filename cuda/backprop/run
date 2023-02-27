@@ -11,6 +11,15 @@ cd $2
 ldd backprop_cuda
 
 valgrind --tool=massif ./backprop_cuda $3
+DIFF=$(diff output.dat output_gpu.dat) 
+if [ "$DIFF" ] 
+then
+    diff --suppress-common-lines output.dat output_gpu.dat > diff.txt
+    mv diff.txt /injector/results
+    echo "WARNING: SDC"
+else
+    echo "INFO: MASKED"
+fi
 mv massif.out.* /injector/results/
 mv output.* /injector/results
 rm backprop_cuda.sm_*

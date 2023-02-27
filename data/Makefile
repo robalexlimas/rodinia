@@ -1,4 +1,4 @@
-BENCHMARKS := bfs cfd heartwall hotspot kmeans leukocyte lud mummergpu nn heartwall cfd
+BENCHMARKS := bfs cfd heartwall hotspot kmeans leukocyte lud mummergpu nn cfd b+tree
 
 .PHONY: all
 all: $(BENCHMARKS)

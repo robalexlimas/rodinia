@@ -12,10 +12,19 @@ ldd gaussian
 
 #./gaussian -f ../../data/gaussian/matrix4.txt
 valgrind --tool=massif ./gaussian -s $3
+DIFF=$(diff output.txt output_gpu.txt) 
+if [ "$DIFF" ] 
+then
+    diff --suppress-common-lines output.txt output_gpu.txt > diff.txt
+    mv diff.txt /injector/results
+    echo "WARNING: SDC"
+else
+    echo "INFO: MASKED"
+fi
 mv massif.out.* /injector/results/
 mv output.* /injector/results
 rm gaussian.sm_*
-rm config_turing_islip.icnt
+rm config_*
 rm gpgpu*
 rm _*
 rm -rf checkpoints/

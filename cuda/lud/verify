@@ -2,4 +2,10 @@
 set -ue
 
 ./lud -s 1024 -v
-
+diff --suppress-common-lines output.dat output_gpu.dat > diff.txt
+mv diff.txt /injector/results
+rm lud.sm_*
+rm config_*
+rm gpgpu*
+rm _*
+rm -rf checkpoints/

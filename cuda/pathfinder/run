@@ -1,4 +1,29 @@
 #!/usr/bin/env bash
-set -ue
+export PATH=$PATH:/usr/local/cuda/bin
+export CUDA_INSTALL_PATH=/usr/local/cuda
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+export OUTPUT=1
 
-./pathfinder 100000 100 20
+cd $1
+source setup_environment
+
+cd $2
+ldd pathfinder
+
+valgrind --tool=massif ./pathfinder 100000 100 20
+DIFF=$(diff output.txt output_gpu.txt) 
+if [ "$DIFF" ] 
+then
+    diff --suppress-common-lines output.txt output_gpu.txt > diff.txt
+    mv diff.txt /injector/results
+    echo "WARNING: SDC"
+else
+    echo "INFO: MASKED"
+fi
+mv massif.out.* /injector/results/
+mv output.* /injector/results
+rm pathfinder.sm_*
+rm config_*
+rm gpgpu*
+rm _*
+rm -rf checkpoints/

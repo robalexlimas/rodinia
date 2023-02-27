@@ -1,0 +1,1968 @@
+desc: (none)
+cmd: ./pathfinder 100000 100 20
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=2636673
+mem_heap_B=72704
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=2655393
+mem_heap_B=40473960
+mem_heap_extra_B=1584
+mem_stacks_B=0
+heap_tree=detailed
+n2: 40473960 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 40000000 0x109A99: init(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+  n1: 40000000 0x109E6E: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+   n0: 40000000 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n0: 473960 in 8 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=3
+#-----------
+time=941373002
+mem_heap_B=40474432
+mem_heap_extra_B=1600
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=941373631
+mem_heap_B=40478528
+mem_heap_extra_B=1608
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=7344300497
+mem_heap_B=40478528
+mem_heap_extra_B=1608
+mem_stacks_B=0
+heap_tree=detailed
+n2: 40478528 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 40000000 0x109A99: init(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+  n1: 40000000 0x109E6E: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+   n0: 40000000 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n0: 478528 in 10 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=6
+#-----------
+time=7344350844
+mem_heap_B=40476667
+mem_heap_extra_B=1685
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=7345099167
+mem_heap_B=40476947
+mem_heap_extra_B=1701
+mem_stacks_B=0
+heap_tree=detailed
+n2: 40476947 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 40000000 0x109A99: init(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+  n1: 40000000 0x109E6E: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+   n0: 40000000 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n0: 476947 in 17 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=8
+#-----------
+time=7345500361
+mem_heap_B=40543539
+mem_heap_extra_B=1797
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=7346121678
+mem_heap_B=41587975
+mem_heap_extra_B=68825
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=7346516469
+mem_heap_B=41588103
+mem_heap_extra_B=68833
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=7347061198
+mem_heap_B=44342351
+mem_heap_extra_B=74945
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=7347803139
+mem_heap_B=45266675
+mem_heap_extra_B=92637
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=7348146741
+mem_heap_B=45360128
+mem_heap_extra_B=110304
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=7348668762
+mem_heap_B=46496576
+mem_heap_extra_B=112000
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=7349075981
+mem_heap_B=46555034
+mem_heap_extra_B=114414
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=7349445837
+mem_heap_B=46647343
+mem_heap_extra_B=118553
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=7350104379
+mem_heap_B=47300765
+mem_heap_extra_B=126187
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=7350801676
+mem_heap_B=47681057
+mem_heap_extra_B=133191
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=7351376860
+mem_heap_B=47698137
+mem_heap_extra_B=138071
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=7352061264
+mem_heap_B=47716281
+mem_heap_extra_B=143255
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=7352595137
+mem_heap_B=47740081
+mem_heap_extra_B=150055
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=7353221411
+mem_heap_B=47754137
+mem_heap_extra_B=154071
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=7353711991
+mem_heap_B=47770321
+mem_heap_extra_B=158695
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=7354395756
+mem_heap_B=47789481
+mem_heap_extra_B=162007
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=7354973184
+mem_heap_B=47797737
+mem_heap_extra_B=162455
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=7355682886
+mem_heap_B=47810025
+mem_heap_extra_B=163159
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=7356401435
+mem_heap_B=47810577
+mem_heap_extra_B=163175
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=7356806520
+mem_heap_B=47770599
+mem_heap_extra_B=163385
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=7357192409
+mem_heap_B=49869612
+mem_heap_extra_B=163364
+mem_stacks_B=0
+heap_tree=detailed
+n10: 49869612 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 40000000 0x109A99: init(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+  n1: 40000000 0x109E6E: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+   n0: 40000000 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n0: 2677516 in 214 places, all below massif's threshold (1.00%)
+ n1: 2097152 0x7E4CF39: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 2097152 0x7F827FF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 2097152 0x80FA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 2097152 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 2097152 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 2097152 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 2097152 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 2097152 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 2097152 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 2097152 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 2097152 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 2097152 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 2097152 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+              n0: 2097152 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n1: 1109864 0x7F81A5B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 1109864 0x80823C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 1109864 0x7F827C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 1103248 0x80FA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 1103248 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 1103248 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 1103248 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 1103248 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 1103248 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 1103248 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 1103248 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 1103248 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 1103248 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 1103248 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+               n0: 1103248 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+    n0: 6616 in 2 places, all below massif's threshold (1.00%)
+ n1: 917504 0x7EE914D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 917504 0x7FF3D86: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 917504 0x7DD04D4: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n0: 917504 in 2 places, all below massif's threshold (1.00%)
+ n1: 835280 0x7E53D1F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 835280 0x7F81108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 835280 0x80823C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n2: 835280 0x7F827C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 832512 0x80FA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 832512 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 832512 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 832512 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 832512 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 832512 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 832512 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 832512 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 832512 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 832512 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 832512 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+                n0: 832512 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+     n0: 2768 in 2 places, all below massif's threshold (1.00%)
+ n1: 655360 0x80EB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x7F1ECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x51154DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 655360 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+          n0: 655360 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n2: 528376 0x7FE69C5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x7DF19CC: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x80F964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 524280 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+              n0: 524280 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+  n0: 4096 in 1 place, below massif's threshold (1.00%)
+ n1: 524280 0x7DF19B7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x80F964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+             n0: 524280 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n1: 524280 0x7DF19DD: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x80F964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+             n0: 524280 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+#-----------
+snapshot=30
+#-----------
+time=7357581708
+mem_heap_B=49869612
+mem_heap_extra_B=163364
+mem_stacks_B=0
+heap_tree=detailed
+n10: 49869612 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 40000000 0x109A99: init(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+  n1: 40000000 0x109E6E: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+   n0: 40000000 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n0: 2677516 in 214 places, all below massif's threshold (1.00%)
+ n1: 2097152 0x7E4CF39: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 2097152 0x7F827FF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 2097152 0x80FA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 2097152 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 2097152 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 2097152 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 2097152 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 2097152 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 2097152 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 2097152 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 2097152 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 2097152 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 2097152 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+              n0: 2097152 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n1: 1109864 0x7F81A5B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 1109864 0x80823C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 1109864 0x7F827C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 1103248 0x80FA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 1103248 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 1103248 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 1103248 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 1103248 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 1103248 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 1103248 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 1103248 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 1103248 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 1103248 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 1103248 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+               n0: 1103248 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+    n0: 6616 in 2 places, all below massif's threshold (1.00%)
+ n1: 917504 0x7EE914D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 917504 0x7FF3D86: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 917504 0x7DD04D4: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n0: 917504 in 2 places, all below massif's threshold (1.00%)
+ n1: 835280 0x7E53D1F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 835280 0x7F81108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 835280 0x80823C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n2: 835280 0x7F827C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 832512 0x80FA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 832512 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 832512 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 832512 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 832512 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 832512 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 832512 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 832512 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 832512 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 832512 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 832512 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+                n0: 832512 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+     n0: 2768 in 2 places, all below massif's threshold (1.00%)
+ n1: 655360 0x80EB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x7F1ECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x51154DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 655360 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+          n0: 655360 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n2: 528376 0x7FE69C5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x7DF19CC: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x80F964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 524280 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+              n0: 524280 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+  n0: 4096 in 1 place, below massif's threshold (1.00%)
+ n1: 524280 0x7DF19B7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x80F964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+             n0: 524280 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n1: 524280 0x7DF19DD: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x80F964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+             n0: 524280 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+#-----------
+snapshot=31
+#-----------
+time=7358313159
+mem_heap_B=48058467
+mem_heap_extra_B=172069
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=7358947845
+mem_heap_B=48101315
+mem_heap_extra_B=175885
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=7360213579
+mem_heap_B=48103176
+mem_heap_extra_B=175856
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=7360709341
+mem_heap_B=51658807
+mem_heap_extra_B=178409
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=7361421054
+mem_heap_B=66466791
+mem_heap_extra_B=182641
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=7383067567
+mem_heap_B=66466791
+mem_heap_extra_B=182641
+mem_stacks_B=0
+heap_tree=peak
+n6: 66466791 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 40000000 0x109A99: init(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+  n1: 40000000 0x109E6E: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+   n0: 40000000 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n1: 18153664 0x7EA1C20: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 18153664 0x80FA7C9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 18153664 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 18153664 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 18153664 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 18153664 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 18153664 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 18153664 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 18153664 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 18153664 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 18153664 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 18153664 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+             n0: 18153664 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n0: 5261079 in 223 places, all below massif's threshold (1.00%)
+ n1: 1233488 0x7F81A5B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 1233488 0x80823C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 1233488 0x7F827C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 1103248 0x80FA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 1103248 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 1103248 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 1103248 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 1103248 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 1103248 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 1103248 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 1103248 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 1103248 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 1103248 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 1103248 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+               n0: 1103248 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+    n0: 130240 in 5 places, all below massif's threshold (1.00%)
+ n1: 917504 0x7EE914D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 917504 0x7FF3D86: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 917504 0x7DD04D4: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n0: 917504 in 2 places, all below massif's threshold (1.00%)
+ n1: 901056 0x7E53D1F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 901056 0x7F81108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 901056 0x80823C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n2: 901056 0x7F827C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 828416 0x80FA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 828416 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 828416 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 828416 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 828416 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 828416 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 828416 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 828416 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 828416 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 828416 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 828416 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+                n0: 828416 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+     n0: 72640 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=37
+#-----------
+time=7383603871
+mem_heap_B=48587799
+mem_heap_extra_B=180777
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=7384069794
+mem_heap_B=48714753
+mem_heap_extra_B=183935
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=7384644545
+mem_heap_B=49015374
+mem_heap_extra_B=190938
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=7385142603
+mem_heap_B=49090613
+mem_heap_extra_B=194971
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=7385620934
+mem_heap_B=49268483
+mem_heap_extra_B=199029
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=7386221008
+mem_heap_B=49421392
+mem_heap_extra_B=202408
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=7386682826
+mem_heap_B=49492776
+mem_heap_extra_B=204352
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=7394464597
+mem_heap_B=49493248
+mem_heap_extra_B=204368
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=7394465285
+mem_heap_B=49497344
+mem_heap_extra_B=204376
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=7449368230
+mem_heap_B=49497264
+mem_heap_extra_B=204368
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=7449369419
+mem_heap_B=49497344
+mem_heap_extra_B=204376
+mem_stacks_B=0
+heap_tree=detailed
+n9: 49497344 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 40000000 0x109A99: init(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+  n1: 40000000 0x109E6E: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+   n0: 40000000 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n0: 3656824 in 266 places, all below massif's threshold (1.00%)
+ n2: 1603872 0x7F81A5B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 1594720 0x80823C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 1396960 0x7F827C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 1103248 0x80FA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 1103248 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 1103248 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 1103248 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 1103248 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 1103248 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 1103248 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 1103248 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 1103248 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 1103248 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 1103248 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+               n0: 1103248 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+    n0: 293712 in 7 places, all below massif's threshold (1.00%)
+   n0: 197760 in 7 places, all below massif's threshold (1.00%)
+  n0: 9152 in 1 place, below massif's threshold (1.00%)
+ n1: 1086848 0x7E53D1F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 1086848 0x7F81108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 1085056 0x80823C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n2: 979584 0x7F827C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 828416 0x80FA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 828416 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 828416 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 828416 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 828416 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 828416 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 828416 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 828416 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 828416 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 828416 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 828416 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+                n0: 828416 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+     n0: 151168 in 7 places, all below massif's threshold (1.00%)
+    n0: 105472 in 7 places, all below massif's threshold (1.00%)
+   n0: 1792 in 1 place, below massif's threshold (1.00%)
+ n1: 917504 0x7EE914D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 917504 0x7FF3D86: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 917504 0x7DD04D4: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n0: 917504 in 2 places, all below massif's threshold (1.00%)
+ n1: 655360 0x80EB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x7F1ECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x51154DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 655360 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+          n0: 655360 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n2: 528376 0x7FE69C5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x7DF19CC: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x80F964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 524280 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+              n0: 524280 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+  n0: 4096 in 1 place, below massif's threshold (1.00%)
+ n1: 524280 0x7DF19B7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x80F964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+             n0: 524280 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n1: 524280 0x7DF19DD: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x80F964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+             n0: 524280 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+#-----------
+snapshot=48
+#-----------
+time=7525123554
+mem_heap_B=49493248
+mem_heap_extra_B=204368
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=7525269313
+mem_heap_B=9046632
+mem_heap_extra_B=192944
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=7525269993
+mem_heap_B=9046392
+mem_heap_extra_B=192872
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=7525270705
+mem_heap_B=9046152
+mem_heap_extra_B=192784
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=7525271342
+mem_heap_B=9045804
+mem_heap_extra_B=192724
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=7525272001
+mem_heap_B=9045700
+mem_heap_extra_B=192700
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=7525272707
+mem_heap_B=9045464
+mem_heap_extra_B=192640
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=7525273387
+mem_heap_B=9045224
+mem_heap_extra_B=192568
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=7525274292
+mem_heap_B=9044868
+mem_heap_extra_B=192500
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=7525274998
+mem_heap_B=9044632
+mem_heap_extra_B=192440
+mem_stacks_B=0
+heap_tree=detailed
+n21: 9044632 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 1603872 0x7F81A5B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n3: 1594720 0x80823C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n3: 1396960 0x7F827C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 1103248 0x80FA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 1103248 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 1103248 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 1103248 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 1103248 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 1103248 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 1103248 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 1103248 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 1103248 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 1103248 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 1103248 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+               n0: 1103248 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+    n0: 174776 in 6 places, all below massif's threshold (1.00%)
+    n1: 118936 0x7DD2C8C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 118936 0x80FA957: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 118936 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 118936 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 118936 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 118936 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 118936 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 118936 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 118936 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 118936 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 118936 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 118936 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+                n0: 118936 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+   n0: 102912 in 6 places, all below massif's threshold (1.00%)
+   n1: 94848 0x7EE715A: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 94848 0x7E1A194: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 94848 0x80F9B2B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 94848 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 94848 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 94848 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 94848 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 94848 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 94848 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 94848 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 94848 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 94848 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 94848 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+                n0: 94848 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+  n0: 9152 in 1 place, below massif's threshold (1.00%)
+ n1: 1086848 0x7E53D1F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 1086848 0x7F81108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 1085056 0x80823C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n2: 979584 0x7F827C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 828416 0x80FA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 828416 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 828416 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 828416 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 828416 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 828416 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 828416 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 828416 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 828416 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 828416 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 828416 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+                n0: 828416 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+     n0: 151168 in 7 places, all below massif's threshold (1.00%)
+    n0: 105472 in 7 places, all below massif's threshold (1.00%)
+   n0: 1792 in 1 place, below massif's threshold (1.00%)
+ n1: 917504 0x7EE914D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 917504 0x7FF3D86: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 917504 0x7DD04D4: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 458752 0x7DD1E84: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 458752 0x80F91C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 458752 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 458752 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 458752 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 458752 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 458752 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 458752 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 458752 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 458752 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 458752 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 458752 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+                n0: 458752 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+    n1: 458752 0x7DD1FCA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 458752 0x80F91C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 458752 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 458752 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 458752 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 458752 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 458752 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 458752 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 458752 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 458752 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 458752 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 458752 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+                n0: 458752 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n0: 697124 in 255 places, all below massif's threshold (1.00%)
+ n1: 655360 0x80EB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x7F1ECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x51154DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 655360 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+          n0: 655360 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n2: 528376 0x7FE69C5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x7DF19CC: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x80F964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 524280 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+              n0: 524280 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+  n0: 4096 in 1 place, below massif's threshold (1.00%)
+ n1: 524280 0x7DF19B7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x80F964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+             n0: 524280 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n1: 524280 0x7DF19DD: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x80F964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+             n0: 524280 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n1: 335872 0x7E53D80: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 335872 0x7F81108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 331776 0x80823C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 176128 0x7EE715A: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 176128 0x7E1A194: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 176128 0x80F9B2B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 176128 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 176128 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+         n1: 176128 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 176128 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 176128 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 176128 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 176128 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 176128 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 176128 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                n1: 176128 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+                 n0: 176128 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+    n0: 155648 in 7 places, all below massif's threshold (1.00%)
+   n0: 4096 in 1 place, below massif's threshold (1.00%)
+ n1: 295152 0x80066C1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 295152 0x80096D5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 295152 0x800991A: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n0: 295152 in 6 places, all below massif's threshold (1.00%)
+ n1: 293664 0x7E53538: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 293664 0x7F81108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 292600 0x80823C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n2: 215992 0x7F827C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 131936 0x80FA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 131936 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 131936 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 131936 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 131936 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 131936 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 131936 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 131936 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 131936 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 131936 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 131936 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+                n0: 131936 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+     n0: 84056 in 7 places, all below massif's threshold (1.00%)
+    n0: 76608 in 7 places, all below massif's threshold (1.00%)
+   n0: 1064 in 1 place, below massif's threshold (1.00%)
+ n1: 262140 0x7DF19A1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 262140 0x80F964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 262140 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 262140 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 262140 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 262140 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 262140 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 262140 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 262140 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 262140 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 262140 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 262140 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+             n0: 262140 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n1: 243984 0x7FB800E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 243984 0x7FB8B6B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 177192 0x807370D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 152352 0x7DC6F3B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 152352 0x7E53C8C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n2: 152352 0x7F81108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n2: 151800 0x80823C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 112056 0x7F827C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+         n0: 112056 in 8 places, all below massif's threshold (1.00%)
+        n0: 39744 in 7 places, all below massif's threshold (1.00%)
+       n0: 552 in 1 place, below massif's threshold (1.00%)
+    n0: 24840 in 1 place, below massif's threshold (1.00%)
+   n0: 66792 in 23 places, all below massif's threshold (1.00%)
+ n1: 168960 0x7E7BD79: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 168960 0x7DF6CED: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 168960 0x80EB61C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 168960 0x7F1ECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 168960 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 168960 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 168960 0x51154DE: __pthread_once_slow (pthread_once.c:116)
+        n1: 168960 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 168960 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 168960 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 168960 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+            n0: 168960 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n2: 168720 0x7F451FD: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 141056 0x7F4557D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 135888 0x7F4568C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n0: 135888 in 6 places, all below massif's threshold (1.00%)
+   n0: 5168 in 1 place, below massif's threshold (1.00%)
+  n0: 27664 in 2 places, all below massif's threshold (1.00%)
+ n1: 164136 0x7EA156E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 164136 0x80FA7C9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 164136 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 164136 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 164136 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 164136 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 164136 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 164136 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 164136 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 164136 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 164136 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 164136 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+             n0: 164136 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n1: 139264 0x7F484CF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 139264 0x7F4940B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 131072 0x80EB35E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 131072 0x7F1ECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 131072 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 131072 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 131072 0x51154DE: __pthread_once_slow (pthread_once.c:116)
+        n1: 131072 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 131072 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 131072 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 131072 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+            n0: 131072 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+   n0: 8192 in 1 place, below massif's threshold (1.00%)
+ n1: 122880 0x7FE6C60: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 122880 0x80F97EC: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 122880 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 122880 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 122880 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 122880 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 122880 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 122880 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 122880 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 122880 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 122880 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 122880 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+             n0: 122880 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n1: 106512 0x7DD308E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 106512 0x7E54F24: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 106512 0x7F81108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 106512 0x80823C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n2: 106512 0x7F827C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 99064 0x80FA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 99064 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 99064 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+         n1: 99064 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 99064 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 99064 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 99064 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 99064 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 99064 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 99064 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                n1: 99064 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+                 n0: 99064 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+      n0: 7448 in 5 places, all below massif's threshold (1.00%)
+ n1: 103944 0x7DD1D1C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 103944 0x80F91C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 103944 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 103944 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 103944 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 103944 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 103944 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 103944 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 103944 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 103944 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 103944 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 103944 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+             n0: 103944 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n1: 101760 0x7DD02BA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n0: 101760 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=58
+#-----------
+time=7525275704
+mem_heap_B=9044400
+mem_heap_extra_B=192376
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=7525276503
+mem_heap_B=9044016
+mem_heap_extra_B=192336
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=7525277132
+mem_heap_B=9042512
+mem_heap_extra_B=192248
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=7525277776
+mem_heap_B=9042088
+mem_heap_extra_B=192152
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=7525278831
+mem_heap_B=9041816
+mem_heap_extra_B=192104
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=7525285696
+mem_heap_B=9041288
+mem_heap_extra_B=192008
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=7525286516
+mem_heap_B=9040928
+mem_heap_extra_B=191944
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=7525288171
+mem_heap_B=9040264
+mem_heap_extra_B=191848
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=7525289874
+mem_heap_B=9039192
+mem_heap_extra_B=191784
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=7525290620
+mem_heap_B=9035192
+mem_heap_extra_B=191744
+mem_stacks_B=0
+heap_tree=detailed
+n21: 9035192 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 1603872 0x7F81A5B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n3: 1594720 0x80823C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n3: 1396960 0x7F827C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 1103248 0x80FA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 1103248 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 1103248 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 1103248 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 1103248 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 1103248 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 1103248 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 1103248 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 1103248 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 1103248 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 1103248 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+               n0: 1103248 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+    n0: 174776 in 6 places, all below massif's threshold (1.00%)
+    n1: 118936 0x7DD2C8C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 118936 0x80FA957: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 118936 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 118936 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 118936 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 118936 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 118936 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 118936 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 118936 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 118936 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 118936 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 118936 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+                n0: 118936 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+   n0: 102912 in 6 places, all below massif's threshold (1.00%)
+   n1: 94848 0x7EE715A: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 94848 0x7E1A194: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 94848 0x80F9B2B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 94848 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 94848 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 94848 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 94848 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 94848 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 94848 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 94848 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 94848 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 94848 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 94848 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+                n0: 94848 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+  n0: 9152 in 1 place, below massif's threshold (1.00%)
+ n1: 1086848 0x7E53D1F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 1086848 0x7F81108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 1085056 0x80823C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n2: 979584 0x7F827C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 828416 0x80FA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 828416 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 828416 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 828416 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 828416 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 828416 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 828416 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 828416 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 828416 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 828416 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 828416 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+                n0: 828416 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+     n0: 151168 in 7 places, all below massif's threshold (1.00%)
+    n0: 105472 in 7 places, all below massif's threshold (1.00%)
+   n0: 1792 in 1 place, below massif's threshold (1.00%)
+ n1: 917504 0x7EE914D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 917504 0x7FF3D86: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 917504 0x7DD04D4: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 458752 0x7DD1E84: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 458752 0x80F91C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 458752 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 458752 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 458752 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 458752 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 458752 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 458752 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 458752 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 458752 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 458752 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 458752 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+                n0: 458752 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+    n1: 458752 0x7DD1FCA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 458752 0x80F91C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 458752 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 458752 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 458752 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 458752 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 458752 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 458752 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 458752 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 458752 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 458752 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 458752 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+                n0: 458752 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n0: 687684 in 257 places, all below massif's threshold (1.00%)
+ n1: 655360 0x80EB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x7F1ECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x51154DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 655360 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+          n0: 655360 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n2: 528376 0x7FE69C5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x7DF19CC: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x80F964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 524280 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+              n0: 524280 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+  n0: 4096 in 1 place, below massif's threshold (1.00%)
+ n1: 524280 0x7DF19B7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x80F964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+             n0: 524280 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n1: 524280 0x7DF19DD: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x80F964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+             n0: 524280 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n1: 335872 0x7E53D80: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 335872 0x7F81108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 331776 0x80823C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 176128 0x7EE715A: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 176128 0x7E1A194: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 176128 0x80F9B2B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 176128 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 176128 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+         n1: 176128 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 176128 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 176128 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 176128 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 176128 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 176128 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 176128 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                n1: 176128 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+                 n0: 176128 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+    n0: 155648 in 7 places, all below massif's threshold (1.00%)
+   n0: 4096 in 1 place, below massif's threshold (1.00%)
+ n1: 295152 0x80066C1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 295152 0x80096D5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 295152 0x800991A: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n0: 295152 in 6 places, all below massif's threshold (1.00%)
+ n1: 293664 0x7E53538: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 293664 0x7F81108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 292600 0x80823C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n2: 215992 0x7F827C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 131936 0x80FA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 131936 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 131936 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 131936 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 131936 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 131936 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 131936 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 131936 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 131936 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 131936 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 131936 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+                n0: 131936 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+     n0: 84056 in 7 places, all below massif's threshold (1.00%)
+    n0: 76608 in 7 places, all below massif's threshold (1.00%)
+   n0: 1064 in 1 place, below massif's threshold (1.00%)
+ n1: 262140 0x7DF19A1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 262140 0x80F964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 262140 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 262140 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 262140 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 262140 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 262140 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 262140 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 262140 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 262140 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 262140 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 262140 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+             n0: 262140 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n1: 243984 0x7FB800E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 243984 0x7FB8B6B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 177192 0x807370D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 152352 0x7DC6F3B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 152352 0x7E53C8C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n2: 152352 0x7F81108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n2: 151800 0x80823C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 112056 0x7F827C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+         n0: 112056 in 8 places, all below massif's threshold (1.00%)
+        n0: 39744 in 7 places, all below massif's threshold (1.00%)
+       n0: 552 in 1 place, below massif's threshold (1.00%)
+    n0: 24840 in 1 place, below massif's threshold (1.00%)
+   n0: 66792 in 23 places, all below massif's threshold (1.00%)
+ n1: 168960 0x7E7BD79: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 168960 0x7DF6CED: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 168960 0x80EB61C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 168960 0x7F1ECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 168960 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 168960 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 168960 0x51154DE: __pthread_once_slow (pthread_once.c:116)
+        n1: 168960 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 168960 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 168960 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 168960 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+            n0: 168960 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n2: 168720 0x7F451FD: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 141056 0x7F4557D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 135888 0x7F4568C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n0: 135888 in 6 places, all below massif's threshold (1.00%)
+   n0: 5168 in 1 place, below massif's threshold (1.00%)
+  n0: 27664 in 2 places, all below massif's threshold (1.00%)
+ n1: 164136 0x7EA156E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 164136 0x80FA7C9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 164136 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 164136 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 164136 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 164136 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 164136 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 164136 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 164136 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 164136 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 164136 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 164136 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+             n0: 164136 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n1: 139264 0x7F484CF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 139264 0x7F4940B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 131072 0x80EB35E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 131072 0x7F1ECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 131072 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 131072 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 131072 0x51154DE: __pthread_once_slow (pthread_once.c:116)
+        n1: 131072 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 131072 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 131072 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 131072 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+            n0: 131072 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+   n0: 8192 in 1 place, below massif's threshold (1.00%)
+ n1: 122880 0x7FE6C60: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 122880 0x80F97EC: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 122880 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 122880 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 122880 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 122880 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 122880 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 122880 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 122880 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 122880 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 122880 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 122880 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+             n0: 122880 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n1: 106512 0x7DD308E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 106512 0x7E54F24: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 106512 0x7F81108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 106512 0x80823C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n2: 106512 0x7F827C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 99064 0x80FA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 99064 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 99064 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+         n1: 99064 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 99064 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 99064 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 99064 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 99064 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 99064 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 99064 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                n1: 99064 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+                 n0: 99064 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+      n0: 7448 in 5 places, all below massif's threshold (1.00%)
+ n1: 103944 0x7DD1D1C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 103944 0x80F91C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 103944 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 103944 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 103944 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 103944 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 103944 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 103944 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 103944 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 103944 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 103944 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 103944 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+             n0: 103944 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n1: 101760 0x7DD02BA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n0: 101760 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=68
+#-----------
+time=7525291369
+mem_heap_B=9031192
+mem_heap_extra_B=191704
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=7525292114
+mem_heap_B=9027192
+mem_heap_extra_B=191664
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=7525292863
+mem_heap_B=9023192
+mem_heap_extra_B=191624
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=7525293612
+mem_heap_B=9019192
+mem_heap_extra_B=191584
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=7525294357
+mem_heap_B=9015192
+mem_heap_extra_B=191544
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=7525295106
+mem_heap_B=9011192
+mem_heap_extra_B=191504
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=7525295854
+mem_heap_B=9007192
+mem_heap_extra_B=191464
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=7525296600
+mem_heap_B=9003192
+mem_heap_extra_B=191424
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=7525297349
+mem_heap_B=8999192
+mem_heap_extra_B=191384
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=7525298094
+mem_heap_B=8995192
+mem_heap_extra_B=191344
+mem_stacks_B=0
+heap_tree=detailed
+n21: 8995192 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 1603872 0x7F81A5B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n3: 1594720 0x80823C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n3: 1396960 0x7F827C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 1103248 0x80FA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 1103248 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 1103248 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 1103248 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 1103248 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 1103248 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 1103248 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 1103248 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 1103248 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 1103248 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 1103248 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+               n0: 1103248 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+    n0: 174776 in 6 places, all below massif's threshold (1.00%)
+    n1: 118936 0x7DD2C8C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 118936 0x80FA957: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 118936 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 118936 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 118936 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 118936 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 118936 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 118936 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 118936 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 118936 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 118936 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 118936 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+                n0: 118936 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+   n0: 102912 in 6 places, all below massif's threshold (1.00%)
+   n1: 94848 0x7EE715A: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 94848 0x7E1A194: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 94848 0x80F9B2B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 94848 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 94848 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 94848 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 94848 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 94848 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 94848 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 94848 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 94848 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 94848 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 94848 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+                n0: 94848 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+  n0: 9152 in 1 place, below massif's threshold (1.00%)
+ n1: 1086848 0x7E53D1F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 1086848 0x7F81108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 1085056 0x80823C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n2: 979584 0x7F827C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 828416 0x80FA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 828416 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 828416 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 828416 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 828416 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 828416 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 828416 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 828416 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 828416 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 828416 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 828416 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+                n0: 828416 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+     n0: 151168 in 7 places, all below massif's threshold (1.00%)
+    n0: 105472 in 7 places, all below massif's threshold (1.00%)
+   n0: 1792 in 1 place, below massif's threshold (1.00%)
+ n1: 917504 0x7EE914D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 917504 0x7FF3D86: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 917504 0x7DD04D4: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 458752 0x7DD1E84: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 458752 0x80F91C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 458752 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 458752 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 458752 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 458752 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 458752 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 458752 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 458752 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 458752 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 458752 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 458752 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+                n0: 458752 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+    n1: 458752 0x7DD1FCA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 458752 0x80F91C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 458752 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 458752 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 458752 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 458752 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 458752 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 458752 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 458752 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 458752 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 458752 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 458752 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+                n0: 458752 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n1: 655360 0x80EB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x7F1ECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x51154DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 655360 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+          n0: 655360 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n0: 647684 in 257 places, all below massif's threshold (1.00%)
+ n2: 528376 0x7FE69C5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x7DF19CC: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x80F964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 524280 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+              n0: 524280 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+  n0: 4096 in 1 place, below massif's threshold (1.00%)
+ n1: 524280 0x7DF19B7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x80F964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+             n0: 524280 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n1: 524280 0x7DF19DD: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x80F964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+             n0: 524280 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n1: 335872 0x7E53D80: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 335872 0x7F81108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 331776 0x80823C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 176128 0x7EE715A: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 176128 0x7E1A194: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 176128 0x80F9B2B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 176128 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 176128 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+         n1: 176128 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 176128 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 176128 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 176128 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 176128 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 176128 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 176128 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                n1: 176128 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+                 n0: 176128 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+    n0: 155648 in 7 places, all below massif's threshold (1.00%)
+   n0: 4096 in 1 place, below massif's threshold (1.00%)
+ n1: 295152 0x80066C1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 295152 0x80096D5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 295152 0x800991A: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n0: 295152 in 6 places, all below massif's threshold (1.00%)
+ n1: 293664 0x7E53538: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 293664 0x7F81108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 292600 0x80823C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n2: 215992 0x7F827C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 131936 0x80FA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 131936 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 131936 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 131936 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 131936 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 131936 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 131936 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 131936 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 131936 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 131936 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 131936 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+                n0: 131936 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+     n0: 84056 in 7 places, all below massif's threshold (1.00%)
+    n0: 76608 in 7 places, all below massif's threshold (1.00%)
+   n0: 1064 in 1 place, below massif's threshold (1.00%)
+ n1: 262140 0x7DF19A1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 262140 0x80F964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 262140 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 262140 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 262140 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 262140 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 262140 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 262140 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 262140 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 262140 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 262140 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 262140 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+             n0: 262140 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n1: 243984 0x7FB800E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 243984 0x7FB8B6B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 177192 0x807370D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 152352 0x7DC6F3B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 152352 0x7E53C8C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n2: 152352 0x7F81108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n2: 151800 0x80823C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 112056 0x7F827C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+         n0: 112056 in 8 places, all below massif's threshold (1.00%)
+        n0: 39744 in 7 places, all below massif's threshold (1.00%)
+       n0: 552 in 1 place, below massif's threshold (1.00%)
+    n0: 24840 in 1 place, below massif's threshold (1.00%)
+   n0: 66792 in 23 places, all below massif's threshold (1.00%)
+ n1: 168960 0x7E7BD79: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 168960 0x7DF6CED: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 168960 0x80EB61C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 168960 0x7F1ECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 168960 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 168960 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 168960 0x51154DE: __pthread_once_slow (pthread_once.c:116)
+        n1: 168960 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 168960 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 168960 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 168960 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+            n0: 168960 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n2: 168720 0x7F451FD: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 141056 0x7F4557D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 135888 0x7F4568C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n0: 135888 in 6 places, all below massif's threshold (1.00%)
+   n0: 5168 in 1 place, below massif's threshold (1.00%)
+  n0: 27664 in 2 places, all below massif's threshold (1.00%)
+ n1: 164136 0x7EA156E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 164136 0x80FA7C9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 164136 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 164136 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 164136 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 164136 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 164136 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 164136 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 164136 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 164136 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 164136 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 164136 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+             n0: 164136 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n1: 139264 0x7F484CF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 139264 0x7F4940B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 131072 0x80EB35E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 131072 0x7F1ECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 131072 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 131072 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 131072 0x51154DE: __pthread_once_slow (pthread_once.c:116)
+        n1: 131072 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 131072 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 131072 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 131072 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+            n0: 131072 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+   n0: 8192 in 1 place, below massif's threshold (1.00%)
+ n1: 122880 0x7FE6C60: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 122880 0x80F97EC: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 122880 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 122880 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 122880 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 122880 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 122880 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 122880 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 122880 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 122880 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 122880 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 122880 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+             n0: 122880 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n1: 106512 0x7DD308E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 106512 0x7E54F24: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 106512 0x7F81108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 106512 0x80823C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n2: 106512 0x7F827C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 99064 0x80FA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 99064 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 99064 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+         n1: 99064 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 99064 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 99064 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 99064 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 99064 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 99064 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 99064 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                n1: 99064 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+                 n0: 99064 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+      n0: 7448 in 5 places, all below massif's threshold (1.00%)
+ n1: 103944 0x7DD1D1C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 103944 0x80F91C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 103944 0x7E0FD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 103944 0x7F1D5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 103944 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 103944 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 103944 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 103944 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 103944 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 103944 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 103944 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 103944 0x109F2C: run(int, char**) (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+             n0: 103944 0x10A280: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/pathfinder/pathfinder)
+ n1: 101760 0x7DD02BA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n0: 101760 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=78
+#-----------
+time=7525298843
+mem_heap_B=8991192
+mem_heap_extra_B=191304
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=7525303058
+mem_heap_B=8988156
+mem_heap_extra_B=191220
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=7525306130
+mem_heap_B=8915252
+mem_heap_extra_B=191188
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=81
+#-----------
+time=7525308000
+mem_heap_B=8914228
+mem_heap_extra_B=191180
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=82
+#-----------
+time=7525309037
+mem_heap_B=8914108
+mem_heap_extra_B=191164
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=83
+#-----------
+time=7525310093
+mem_heap_B=8914076
+mem_heap_extra_B=191156
+mem_stacks_B=0
+heap_tree=empty

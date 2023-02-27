@@ -1,0 +1,1761 @@
+desc: (none)
+cmd: ./gaussian -s 16
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=2522270
+mem_heap_B=72704
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=2593867
+mem_heap_B=78067
+mem_heap_extra_B=229
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=3341338
+mem_heap_B=78347
+mem_heap_extra_B=245
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=3925792
+mem_heap_B=276229
+mem_heap_extra_B=411
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=4357174
+mem_heap_B=1189387
+mem_heap_extra_B=67357
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=4751965
+mem_heap_B=1189515
+mem_heap_extra_B=67365
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=5165970
+mem_heap_B=3633723
+mem_heap_extra_B=71709
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=5780764
+mem_heap_B=4649063
+mem_heap_extra_B=79993
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=6179471
+mem_heap_B=4910975
+mem_heap_extra_B=98249
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=6620402
+mem_heap_B=4994692
+mem_heap_extra_B=110468
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=7077120
+mem_heap_B=6113540
+mem_heap_extra_B=110508
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=7415556
+mem_heap_B=6170719
+mem_heap_extra_B=114737
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=7786710
+mem_heap_B=6347764
+mem_heap_extra_B=118724
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=8328960
+mem_heap_B=6911527
+mem_heap_extra_B=124777
+mem_stacks_B=0
+heap_tree=detailed
+n19: 6911527 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1109864 0x5751A5B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 1109864 0x58523C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 1109864 0x57527C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 1103248 0x58CA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 1103248 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 1103248 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 1103248 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 1103248 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 1103248 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 1103248 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 1103248 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 1103248 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 1103248 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 1103248 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+               n0: 1103248 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+    n0: 6616 in 2 places, all below massif's threshold (1.00%)
+ n1: 917504 0x56B914D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 917504 0x57C3D86: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 917504 0x55A04D4: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 458752 0x55A1E84: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 458752 0x58C91C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 458752 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 458752 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 458752 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 458752 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 458752 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 458752 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 458752 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 458752 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 458752 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 458752 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+                n0: 458752 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+    n1: 458752 0x55A1FCA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 458752 0x58C91C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 458752 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 458752 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 458752 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 458752 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 458752 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 458752 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 458752 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 458752 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 458752 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 458752 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+                n0: 458752 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 655360 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+          n0: 655360 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 583120 0x5623D1F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 583120 0x5751108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 583120 0x58523C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n2: 583120 0x57527C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 580352 0x58CA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 580352 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 580352 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 580352 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 580352 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 580352 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 580352 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 580352 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 580352 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 580352 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 580352 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+                n0: 580352 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+     n0: 2768 in 2 places, all below massif's threshold (1.00%)
+ n0: 540355 in 199 places, all below massif's threshold (1.00%)
+ n2: 528376 0x57B69C5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x55C19CC: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x58C964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 524280 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+              n0: 524280 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+  n0: 4096 in 1 place, below massif's threshold (1.00%)
+ n1: 524280 0x55C19B7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x58C964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+             n0: 524280 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 524280 0x55C19DD: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x58C964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+             n0: 524280 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 295152 0x57D66C1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 295152 0x57D96D5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 295152 0x57D991A: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n0: 295152 in 6 places, all below massif's threshold (1.00%)
+ n1: 262140 0x55C19A1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 262140 0x58C964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 262140 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 262140 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 262140 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 262140 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 262140 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 262140 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 262140 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 262140 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 262140 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 262140 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+             n0: 262140 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 168960 0x564BD79: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 168960 0x55C6CED: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 168960 0x58BB61C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 168960 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 168960 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 168960 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 168960 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+        n1: 168960 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 168960 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 168960 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 168960 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+            n0: 168960 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 139264 0x57184CF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 139264 0x571940B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 131072 0x58BB35E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 131072 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 131072 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 131072 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 131072 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+        n1: 131072 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 131072 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 131072 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 131072 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+            n0: 131072 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+   n0: 8192 in 1 place, below massif's threshold (1.00%)
+ n1: 122880 0x57B6C60: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 122880 0x58C97EC: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 122880 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 122880 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 122880 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 122880 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 122880 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 122880 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 122880 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 122880 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 122880 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 122880 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+             n0: 122880 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 103944 0x55A1D1C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 103944 0x58C91C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 103944 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 103944 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 103944 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 103944 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 103944 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 103944 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 103944 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 103944 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 103944 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 103944 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+             n0: 103944 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 101760 0x55A02BA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n0: 101760 in 2 places, all below massif's threshold (1.00%)
+ n1: 100464 0x578800E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 100464 0x5788B6B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n0: 100464 in 19 places, all below massif's threshold (1.00%)
+ n1: 83448 0x57151FD: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n0: 83448 in 3 places, all below massif's threshold (1.00%)
+ n1: 77672 0x5623538: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 77672 0x5751108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 77672 0x58523C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n2: 77672 0x57527C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 75544 0x58CA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 75544 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 75544 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 75544 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 75544 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 75544 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 75544 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 75544 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 75544 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 75544 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 75544 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+                n0: 75544 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+     n0: 2128 in 2 places, all below massif's threshold (1.00%)
+ n1: 72704 0x4BA9A99: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28)
+  n1: 72704 0x4011B99: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x4011CA0: call_init (dl-init.c:30)
+    n1: 72704 0x4011CA0: _dl_init (dl-init.c:119)
+     n1: 72704 0x4001139: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+      n1: 72704 0x2: ???
+       n1: 72704 0x1FFF000846: ???
+        n1: 72704 0x1FFF000851: ???
+         n0: 72704 0x1FFF000854: ???
+#-----------
+snapshot=15
+#-----------
+time=8661932
+mem_heap_B=7049223
+mem_heap_extra_B=129345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=9015555
+mem_heap_B=7282437
+mem_heap_extra_B=131675
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=9378288
+mem_heap_B=7292909
+mem_heap_extra_B=134667
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=9740775
+mem_heap_B=7301085
+mem_heap_extra_B=137003
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=10010945
+mem_heap_B=7310045
+mem_heap_extra_B=139563
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=10381903
+mem_heap_B=7321133
+mem_heap_extra_B=142731
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=10657688
+mem_heap_B=7329141
+mem_heap_extra_B=145019
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=11048850
+mem_heap_B=7341517
+mem_heap_extra_B=148555
+mem_stacks_B=0
+heap_tree=detailed
+n18: 7341517 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1109864 0x5751A5B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 1109864 0x58523C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 1109864 0x57527C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 1103248 0x58CA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 1103248 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 1103248 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 1103248 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 1103248 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 1103248 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 1103248 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 1103248 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 1103248 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 1103248 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 1103248 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+               n0: 1103248 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+    n0: 6616 in 2 places, all below massif's threshold (1.00%)
+ n1: 917504 0x56B914D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 917504 0x57C3D86: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 917504 0x55A04D4: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 458752 0x55A1E84: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 458752 0x58C91C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 458752 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 458752 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 458752 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 458752 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 458752 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 458752 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 458752 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 458752 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 458752 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 458752 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+                n0: 458752 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+    n1: 458752 0x55A1FCA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 458752 0x58C91C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 458752 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 458752 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 458752 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 458752 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 458752 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 458752 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 458752 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 458752 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 458752 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 458752 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+                n0: 458752 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 835280 0x5623D1F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 835280 0x5751108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 835280 0x58523C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n2: 835280 0x57527C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 832512 0x58CA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 832512 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 832512 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 832512 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 832512 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 832512 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 832512 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 832512 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 832512 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 832512 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 832512 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+                n0: 832512 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+     n0: 2768 in 2 places, all below massif's threshold (1.00%)
+ n0: 688825 in 204 places, all below massif's threshold (1.00%)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 655360 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+          n0: 655360 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n2: 528376 0x57B69C5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x55C19CC: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x58C964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 524280 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+              n0: 524280 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+  n0: 4096 in 1 place, below massif's threshold (1.00%)
+ n1: 524280 0x55C19B7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x58C964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+             n0: 524280 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 524280 0x55C19DD: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x58C964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+             n0: 524280 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 295152 0x57D66C1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 295152 0x57D96D5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 295152 0x57D991A: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n0: 295152 in 6 places, all below massif's threshold (1.00%)
+ n1: 262140 0x55C19A1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 262140 0x58C964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 262140 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 262140 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 262140 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 262140 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 262140 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 262140 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 262140 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 262140 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 262140 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 262140 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+             n0: 262140 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 168960 0x564BD79: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 168960 0x55C6CED: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 168960 0x58BB61C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 168960 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 168960 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 168960 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 168960 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+        n1: 168960 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 168960 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 168960 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 168960 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+            n0: 168960 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 139264 0x57184CF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 139264 0x571940B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 131072 0x58BB35E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 131072 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 131072 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 131072 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 131072 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+        n1: 131072 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 131072 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 131072 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 131072 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+            n0: 131072 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+   n0: 8192 in 1 place, below massif's threshold (1.00%)
+ n1: 134064 0x5623538: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 134064 0x5751108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 134064 0x58523C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n2: 134064 0x57527C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 131936 0x58CA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 131936 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 131936 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 131936 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 131936 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 131936 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 131936 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 131936 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 131936 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 131936 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 131936 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+                n0: 131936 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+     n0: 2128 in 2 places, all below massif's threshold (1.00%)
+ n1: 129720 0x578800E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 129720 0x5788B6B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n0: 129720 in 19 places, all below massif's threshold (1.00%)
+ n1: 122880 0x57B6C60: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 122880 0x58C97EC: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 122880 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 122880 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 122880 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 122880 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 122880 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 122880 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 122880 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 122880 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 122880 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 122880 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+             n0: 122880 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 103944 0x55A1D1C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 103944 0x58C91C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 103944 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 103944 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 103944 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 103944 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 103944 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 103944 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 103944 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 103944 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 103944 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 103944 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+             n0: 103944 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 101760 0x55A02BA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n0: 101760 in 2 places, all below massif's threshold (1.00%)
+ n2: 99864 0x57151FD: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 76152 0x571557D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n0: 76152 in 2 places, all below massif's threshold (1.00%)
+  n0: 23712 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=23
+#-----------
+time=11409580
+mem_heap_B=7352941
+mem_heap_extra_B=151819
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=11776041
+mem_heap_B=7369909
+mem_heap_extra_B=156667
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=12355257
+mem_heap_B=7381997
+mem_heap_extra_B=159979
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=12816192
+mem_heap_B=7391413
+mem_heap_extra_B=160507
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=13282538
+mem_heap_B=7399973
+mem_heap_extra_B=160987
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=13870743
+mem_heap_B=7410245
+mem_heap_extra_B=161563
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=14612465
+mem_heap_B=7411957
+mem_heap_extra_B=161659
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=14984599
+mem_heap_B=7401021
+mem_heap_extra_B=161923
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=15380787
+mem_heap_B=7373840
+mem_heap_extra_B=161840
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=15792818
+mem_heap_B=9470992
+mem_heap_extra_B=161848
+mem_stacks_B=0
+heap_tree=detailed
+n20: 9470992 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2097152 0x561CF39: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 2097152 0x57527FF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 2097152 0x58CA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 2097152 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 2097152 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 2097152 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 2097152 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 2097152 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 2097152 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 2097152 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 2097152 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 2097152 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 2097152 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+              n0: 2097152 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 1109864 0x5751A5B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 1109864 0x58523C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 1109864 0x57527C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 1103248 0x58CA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 1103248 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 1103248 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 1103248 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 1103248 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 1103248 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 1103248 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 1103248 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 1103248 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 1103248 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 1103248 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+               n0: 1103248 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+    n0: 6616 in 2 places, all below massif's threshold (1.00%)
+ n1: 917504 0x56B914D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 917504 0x57C3D86: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 917504 0x55A04D4: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 458752 0x55A1E84: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 458752 0x58C91C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 458752 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 458752 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 458752 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 458752 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 458752 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 458752 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 458752 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 458752 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 458752 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 458752 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+                n0: 458752 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+    n1: 458752 0x55A1FCA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 458752 0x58C91C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 458752 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 458752 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 458752 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 458752 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 458752 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 458752 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 458752 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 458752 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 458752 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 458752 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+                n0: 458752 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 835280 0x5623D1F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 835280 0x5751108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 835280 0x58523C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n2: 835280 0x57527C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 832512 0x58CA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 832512 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 832512 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 832512 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 832512 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 832512 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 832512 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 832512 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 832512 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 832512 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 832512 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+                n0: 832512 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+     n0: 2768 in 2 places, all below massif's threshold (1.00%)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 655360 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+          n0: 655360 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n0: 586764 in 204 places, all below massif's threshold (1.00%)
+ n2: 528376 0x57B69C5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x55C19CC: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x58C964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 524280 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+              n0: 524280 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+  n0: 4096 in 1 place, below massif's threshold (1.00%)
+ n1: 524280 0x55C19B7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x58C964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+             n0: 524280 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 524280 0x55C19DD: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x58C964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+             n0: 524280 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 295152 0x57D66C1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 295152 0x57D96D5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 295152 0x57D991A: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n0: 295152 in 6 places, all below massif's threshold (1.00%)
+ n1: 262140 0x55C19A1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 262140 0x58C964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 262140 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 262140 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 262140 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 262140 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 262140 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 262140 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 262140 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 262140 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 262140 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 262140 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+             n0: 262140 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 168960 0x564BD79: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 168960 0x55C6CED: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 168960 0x58BB61C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 168960 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 168960 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 168960 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 168960 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+        n1: 168960 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 168960 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 168960 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 168960 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+            n0: 168960 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 152352 0x578800E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 152352 0x5788B6B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n0: 152352 in 19 places, all below massif's threshold (1.00%)
+ n1: 139264 0x57184CF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 139264 0x571940B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 131072 0x58BB35E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 131072 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 131072 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 131072 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 131072 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+        n1: 131072 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 131072 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 131072 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 131072 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+            n0: 131072 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+   n0: 8192 in 1 place, below massif's threshold (1.00%)
+ n1: 134064 0x5623538: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 134064 0x5751108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 134064 0x58523C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n2: 134064 0x57527C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 131936 0x58CA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 131936 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 131936 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 131936 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 131936 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 131936 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 131936 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 131936 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 131936 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 131936 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 131936 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+                n0: 131936 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+     n0: 2128 in 2 places, all below massif's threshold (1.00%)
+ n1: 122880 0x57B6C60: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 122880 0x58C97EC: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 122880 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 122880 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 122880 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 122880 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 122880 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 122880 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 122880 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 122880 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 122880 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 122880 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+             n0: 122880 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 112328 0x57151FD: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n0: 112328 in 3 places, all below massif's threshold (1.00%)
+ n1: 103944 0x55A1D1C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 103944 0x58C91C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 103944 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 103944 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 103944 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 103944 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 103944 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 103944 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 103944 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 103944 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 103944 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 103944 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+             n0: 103944 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 101760 0x55A02BA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n0: 101760 in 2 places, all below massif's threshold (1.00%)
+ n1: 99288 0x55A308E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 99288 0x5624F24: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 99288 0x5751108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 99288 0x58523C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n2: 99288 0x57527C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 99064 0x58CA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 99064 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 99064 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+         n1: 99064 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 99064 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 99064 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 99064 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 99064 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 99064 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 99064 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                n1: 99064 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+                 n0: 99064 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+      n0: 224 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=33
+#-----------
+time=16134507
+mem_heap_B=7530621
+mem_heap_extra_B=163923
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=16717343
+mem_heap_B=7730200
+mem_heap_extra_B=173376
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=17130919
+mem_heap_B=7731937
+mem_heap_extra_B=174479
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=18389215
+mem_heap_B=7704556
+mem_heap_extra_B=174372
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=18866534
+mem_heap_B=7907771
+mem_heap_extra_B=176685
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=19516761
+mem_heap_B=11260187
+mem_heap_extra_B=176925
+mem_stacks_B=0
+heap_tree=detailed
+n18: 11260187 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3350544 0x5691B71: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 3350544 0x5671590: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 3350544 0x58CA7C9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 3350544 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 3350544 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 3350544 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 3350544 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 3350544 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 3350544 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 3350544 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 3350544 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 3350544 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 3350544 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+              n0: 3350544 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 1233488 0x5751A5B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 1233488 0x58523C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n3: 1233488 0x57527C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 1103248 0x58CA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 1103248 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 1103248 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 1103248 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 1103248 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 1103248 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 1103248 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 1103248 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 1103248 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 1103248 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 1103248 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+               n0: 1103248 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+    n1: 118936 0x55A2C8C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 118936 0x58CA957: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 118936 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 118936 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 118936 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 118936 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 118936 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 118936 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 118936 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 118936 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 118936 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 118936 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+                n0: 118936 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+    n0: 11304 in 4 places, all below massif's threshold (1.00%)
+ n0: 949527 in 208 places, all below massif's threshold (1.00%)
+ n1: 917504 0x56B914D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 917504 0x57C3D86: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 917504 0x55A04D4: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 458752 0x55A1E84: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 458752 0x58C91C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 458752 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 458752 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 458752 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 458752 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 458752 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 458752 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 458752 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 458752 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 458752 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 458752 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+                n0: 458752 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+    n1: 458752 0x55A1FCA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 458752 0x58C91C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 458752 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 458752 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 458752 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 458752 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 458752 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 458752 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 458752 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 458752 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 458752 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 458752 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+                n0: 458752 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 901056 0x5623D1F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 901056 0x5751108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 901056 0x58523C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n2: 901056 0x57527C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 828416 0x58CA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 828416 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 828416 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 828416 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 828416 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 828416 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 828416 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 828416 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 828416 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 828416 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 828416 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+                n0: 828416 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+     n0: 72640 in 5 places, all below massif's threshold (1.00%)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 655360 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+          n0: 655360 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n2: 528376 0x57B69C5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x55C19CC: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x58C964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 524280 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+              n0: 524280 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+  n0: 4096 in 1 place, below massif's threshold (1.00%)
+ n1: 524280 0x55C19B7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x58C964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+             n0: 524280 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 524280 0x55C19DD: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x58C964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+             n0: 524280 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 295152 0x57D66C1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 295152 0x57D96D5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 295152 0x57D991A: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n0: 295152 in 6 places, all below massif's threshold (1.00%)
+ n1: 262140 0x55C19A1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 262140 0x58C964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 262140 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 262140 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 262140 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 262140 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 262140 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 262140 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 262140 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 262140 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 262140 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 262140 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+             n0: 262140 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 201096 0x5623538: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 201096 0x5751108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 201096 0x58523C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n2: 201096 0x57527C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 131936 0x58CA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 131936 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 131936 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 131936 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 131936 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 131936 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 131936 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 131936 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 131936 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 131936 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 131936 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+                n0: 131936 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+     n0: 69160 in 5 places, all below massif's threshold (1.00%)
+ n1: 188232 0x578800E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 188232 0x5788B6B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 126960 0x584370D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n0: 126960 in 2 places, all below massif's threshold (1.00%)
+   n0: 61272 in 20 places, all below massif's threshold (1.00%)
+ n1: 168960 0x564BD79: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 168960 0x55C6CED: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 168960 0x58BB61C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 168960 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 168960 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 168960 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 168960 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+        n1: 168960 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 168960 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 168960 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 168960 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+            n0: 168960 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 164136 0x567156E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 164136 0x58CA7C9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 164136 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 164136 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 164136 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 164136 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 164136 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 164136 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 164136 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 164136 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 164136 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 164136 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+             n0: 164136 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 139264 0x57184CF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 139264 0x571940B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 131072 0x58BB35E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 131072 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 131072 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 131072 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 131072 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+        n1: 131072 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 131072 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 131072 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 131072 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+            n0: 131072 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+   n0: 8192 in 1 place, below massif's threshold (1.00%)
+ n1: 133912 0x57151FD: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n0: 133912 in 3 places, all below massif's threshold (1.00%)
+ n1: 122880 0x57B6C60: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 122880 0x58C97EC: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 122880 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 122880 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 122880 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 122880 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 122880 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 122880 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 122880 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 122880 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 122880 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 122880 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+             n0: 122880 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+#-----------
+snapshot=39
+#-----------
+time=19588475
+mem_heap_B=7914067
+mem_heap_extra_B=177245
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=41242747
+mem_heap_B=26068187
+mem_heap_extra_B=181141
+mem_stacks_B=0
+heap_tree=peak
+n10: 26068187 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 18153664 0x5671C20: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 18153664 0x58CA7C9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 18153664 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 18153664 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 18153664 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 18153664 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 18153664 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 18153664 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 18153664 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 18153664 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 18153664 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 18153664 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+             n0: 18153664 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n0: 2335027 in 219 places, all below massif's threshold (1.00%)
+ n1: 1233488 0x5751A5B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 1233488 0x58523C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 1233488 0x57527C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 1103248 0x58CA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 1103248 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 1103248 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 1103248 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 1103248 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 1103248 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 1103248 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 1103248 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 1103248 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 1103248 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 1103248 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+               n0: 1103248 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+    n0: 130240 in 5 places, all below massif's threshold (1.00%)
+ n1: 917504 0x56B914D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 917504 0x57C3D86: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 917504 0x55A04D4: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 458752 0x55A1E84: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 458752 0x58C91C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 458752 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 458752 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 458752 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 458752 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 458752 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 458752 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 458752 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 458752 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 458752 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 458752 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+                n0: 458752 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+    n1: 458752 0x55A1FCA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 458752 0x58C91C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 458752 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 458752 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 458752 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 458752 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 458752 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 458752 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 458752 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 458752 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 458752 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 458752 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+                n0: 458752 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 901056 0x5623D1F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 901056 0x5751108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 901056 0x58523C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n2: 901056 0x57527C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 828416 0x58CA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 828416 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 828416 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 828416 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 828416 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 828416 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 828416 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 828416 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 828416 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 828416 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 828416 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+                n0: 828416 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+     n0: 72640 in 5 places, all below massif's threshold (1.00%)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 655360 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+          n0: 655360 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n2: 528376 0x57B69C5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x55C19CC: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x58C964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 524280 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+              n0: 524280 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+  n0: 4096 in 1 place, below massif's threshold (1.00%)
+ n1: 524280 0x55C19B7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x58C964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+             n0: 524280 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 524280 0x55C19DD: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x58C964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+             n0: 524280 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 295152 0x57D66C1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 295152 0x57D96D5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 295152 0x57D991A: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n0: 295152 in 6 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=41
+#-----------
+time=41552318
+mem_heap_B=8094528
+mem_heap_extra_B=178064
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=42000604
+mem_heap_B=8241251
+mem_heap_extra_B=181381
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=42628455
+mem_heap_B=8479963
+mem_heap_extra_B=186365
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=42961986
+mem_heap_B=8681309
+mem_heap_extra_B=190811
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=43481202
+mem_heap_B=8726406
+mem_heap_extra_B=194210
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=43871068
+mem_heap_B=8873335
+mem_heap_extra_B=197785
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=44273081
+mem_heap_B=8988843
+mem_heap_extra_B=200101
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=44724216
+mem_heap_B=9105699
+mem_heap_extra_B=202413
+mem_stacks_B=0
+heap_tree=detailed
+n21: 9105699 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 1604128 0x5751A5B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n3: 1594720 0x58523C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n3: 1396960 0x57527C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 1103248 0x58CA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 1103248 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 1103248 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 1103248 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 1103248 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 1103248 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 1103248 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 1103248 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 1103248 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 1103248 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 1103248 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+               n0: 1103248 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+    n0: 174776 in 6 places, all below massif's threshold (1.00%)
+    n1: 118936 0x55A2C8C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 118936 0x58CA957: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 118936 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 118936 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 118936 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 118936 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 118936 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 118936 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 118936 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 118936 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 118936 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 118936 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+                n0: 118936 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+   n0: 102912 in 6 places, all below massif's threshold (1.00%)
+   n1: 94848 0x56B715A: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 94848 0x55EA194: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 94848 0x58C9B2B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 94848 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 94848 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 94848 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 94848 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 94848 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 94848 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 94848 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 94848 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 94848 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 94848 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+                n0: 94848 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+  n0: 9408 in 1 place, below massif's threshold (1.00%)
+ n1: 1087232 0x5623D1F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 1087232 0x5751108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 1085056 0x58523C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n2: 979584 0x57527C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 828416 0x58CA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 828416 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 828416 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 828416 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 828416 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 828416 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 828416 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 828416 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 828416 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 828416 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 828416 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+                n0: 828416 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+     n0: 151168 in 7 places, all below massif's threshold (1.00%)
+    n0: 105472 in 7 places, all below massif's threshold (1.00%)
+   n0: 2176 in 1 place, below massif's threshold (1.00%)
+ n1: 917504 0x56B914D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 917504 0x57C3D86: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 917504 0x55A04D4: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 458752 0x55A1E84: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 458752 0x58C91C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 458752 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 458752 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 458752 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 458752 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 458752 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 458752 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 458752 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 458752 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 458752 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 458752 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+                n0: 458752 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+    n1: 458752 0x55A1FCA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 458752 0x58C91C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 458752 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 458752 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 458752 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 458752 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 458752 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 458752 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 458752 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 458752 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 458752 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 458752 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+                n0: 458752 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n0: 751383 in 242 places, all below massif's threshold (1.00%)
+ n1: 655360 0x58BB802: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 655360 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 655360 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+    n1: 655360 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+     n1: 655360 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+      n1: 655360 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 655360 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 655360 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 655360 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+          n0: 655360 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n2: 528376 0x57B69C5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x55C19CC: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x58C964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 524280 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+              n0: 524280 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+  n0: 4096 in 1 place, below massif's threshold (1.00%)
+ n1: 524280 0x55C19B7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x58C964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+             n0: 524280 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 524280 0x55C19DD: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 524280 0x58C964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 524280 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 524280 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 524280 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 524280 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 524280 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 524280 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 524280 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 524280 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 524280 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 524280 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+             n0: 524280 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 339968 0x5623D80: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 339968 0x5751108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 331776 0x58523C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 176128 0x56B715A: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 176128 0x55EA194: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 176128 0x58C9B2B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 176128 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 176128 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+         n1: 176128 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 176128 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 176128 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 176128 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 176128 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 176128 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 176128 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                n1: 176128 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+                 n0: 176128 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+    n0: 155648 in 7 places, all below massif's threshold (1.00%)
+   n0: 8192 in 1 place, below massif's threshold (1.00%)
+ n1: 295152 0x57D66C1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 295152 0x57D96D5: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 295152 0x57D991A: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n0: 295152 in 6 places, all below massif's threshold (1.00%)
+ n1: 294728 0x5623538: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 294728 0x5751108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 292600 0x58523C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n2: 215992 0x57527C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 131936 0x58CA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 131936 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 131936 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 131936 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 131936 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 131936 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 131936 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 131936 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 131936 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 131936 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 131936 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+                n0: 131936 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+     n0: 84056 in 7 places, all below massif's threshold (1.00%)
+    n0: 76608 in 7 places, all below massif's threshold (1.00%)
+   n0: 2128 in 1 place, below massif's threshold (1.00%)
+ n1: 262140 0x55C19A1: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 262140 0x58C964B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 262140 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 262140 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 262140 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 262140 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 262140 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 262140 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 262140 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 262140 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 262140 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 262140 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+             n0: 262140 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 244536 0x578800E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 244536 0x5788B6B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n2: 177744 0x584370D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 152904 0x5596F3B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 152904 0x5623C8C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n2: 152904 0x5751108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n2: 151800 0x58523C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 112056 0x57527C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+         n0: 112056 in 8 places, all below massif's threshold (1.00%)
+        n0: 39744 in 7 places, all below massif's threshold (1.00%)
+       n0: 1104 in 1 place, below massif's threshold (1.00%)
+    n0: 24840 in 1 place, below massif's threshold (1.00%)
+   n0: 66792 in 22 places, all below massif's threshold (1.00%)
+ n2: 169176 0x57151FD: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 141360 0x571557D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 136192 0x571568C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n0: 136192 in 6 places, all below massif's threshold (1.00%)
+   n0: 5168 in 1 place, below massif's threshold (1.00%)
+  n0: 27816 in 2 places, all below massif's threshold (1.00%)
+ n1: 168960 0x564BD79: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 168960 0x55C6CED: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 168960 0x58BB61C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 168960 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 168960 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 168960 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 168960 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+        n1: 168960 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 168960 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 168960 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 168960 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+            n0: 168960 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 164136 0x567156E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 164136 0x58CA7C9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 164136 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 164136 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 164136 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 164136 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 164136 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 164136 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 164136 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 164136 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 164136 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 164136 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+             n0: 164136 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 139264 0x57184CF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n2: 139264 0x571940B: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 131072 0x58BB35E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 131072 0x56EECFF: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 131072 0x488EBF9: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 131072 0x4891977: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 131072 0x505A4DE: __pthread_once_slow (pthread_once.c:116)
+        n1: 131072 0x48D58A8: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 131072 0x4883B76: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 131072 0x48AECC5: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 131072 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+            n0: 131072 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+   n0: 8192 in 1 place, below massif's threshold (1.00%)
+ n1: 122880 0x57B6C60: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 122880 0x58C97EC: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 122880 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 122880 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 122880 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 122880 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 122880 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 122880 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 122880 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 122880 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 122880 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 122880 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+             n0: 122880 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 106512 0x55A308E: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 106512 0x5624F24: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 106512 0x5751108: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 106512 0x58523C7: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n2: 106512 0x57527C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+      n1: 99064 0x58CA91F: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+       n1: 99064 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+        n1: 99064 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+         n1: 99064 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 99064 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 99064 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 99064 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+             n1: 99064 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+              n1: 99064 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+               n1: 99064 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+                n1: 99064 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+                 n0: 99064 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+      n0: 7448 in 5 places, all below massif's threshold (1.00%)
+ n1: 103944 0x55A1D1C: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n1: 103944 0x58C91C2: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+   n1: 103944 0x55DFD1D: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+    n1: 103944 0x56ED5F9: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+     n1: 103944 0x489B7D1: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+      n1: 103944 0x489B8C2: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+       n1: 103944 0x489B9CC: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+        n1: 103944 0x489C4DB: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+         n1: 103944 0x48923AD: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+          n1: 103944 0x4875CD7: ??? (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+           n1: 103944 0x48AEE22: cudaMalloc (in /usr/local/cuda-11.5/targets/x86_64-linux/lib/libcudart.so.11.5.117)
+            n1: 103944 0x10A096: ForwardSub() (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+             n0: 103944 0x109AB4: main (in /home/jdguest/Documents/gpgpusim-mod/app/rodinia/cuda/gaussian/gaussian)
+ n1: 101760 0x55A02BA: ??? (in /usr/lib/x86_64-linux-gnu/libcuda.so.510.108.03)
+  n0: 101760 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=49
+#-----------
+time=45224408
+mem_heap_B=9098329
+mem_heap_extra_B=202815
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=46265494
+mem_heap_B=9093817
+mem_heap_extra_B=202471
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=46337595
+mem_heap_B=9082261
+mem_heap_extra_B=200179
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=46409242
+mem_heap_B=9056541
+mem_heap_extra_B=193795
+mem_stacks_B=0
+heap_tree=empty

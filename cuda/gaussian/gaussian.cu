@@ -58,6 +58,7 @@ void PrintMat(float *ary, int nrow, int ncolumn);
 void PrintAry(float *ary, int ary_size);
 void PrintDeviceProperties();
 void checkCUDAError(const char *msg);
+void save_output(char* filename, float* solution, int Size);
 
 unsigned int totalKernelTime = 0;
 
@@ -187,6 +188,9 @@ int main(int argc, char *argv[]) {
     if (verbose) {
         printf("The final solution is: \n");
         PrintAry(finalVec, Size);
+        if (getenv("OUTPUT")) {
+            save_output("output.txt", finalVec, Size);
+        }
     }
     printf("\nTime total (including memory transfers)\t%f sec\n",
            time_total * 1e-6);
@@ -480,4 +484,15 @@ void checkCUDAError(const char *msg) {
         fprintf(stderr, "Cuda error: %s: %s.\n", msg, cudaGetErrorString(err));
         exit(EXIT_FAILURE);
     }
+}
+
+void save_output(char* filename, float* solution, int ary_size) {
+    printf("Save file\n");
+    FILE *pFile;
+    pFile = fopen(filename, "w+");
+    int i;
+    for (i = 0; i < ary_size; i++) {
+        fprintf(pFile, "%f\n", solution[i]);
+    }
+    fclose(pFile);
 }

@@ -1,6 +1,33 @@
 #!/usr/bin/env bash
-set -ue
+export PATH=$PATH:/usr/local/cuda/bin
+export CUDA_INSTALL_PATH=/usr/local/cuda
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+export OUTPUT=1
 
-OUTPUT=1 ./run
-numdiff -a 1.1e-3 output.txt ../../results/hotspot/output.txt
 
+cd $1
+source setup_environment
+
+cd $2
+ldd hotspot
+
+./hotspot 512 2 2 ../../data/hotspot/temp_512 ../../data/hotspot/power_512
+if [ -f $2/output.txt ]
+then
+    DIFF=$(diff output.txt output_gpu.txt) 
+    if [ "$DIFF" ] 
+    then
+        diff --suppress-common-lines output.txt output_gpu.txt > diff.txt
+        mv diff.txt /injector/results
+        echo "WARNING: SDC"
+    else
+        echo "INFO: MASKED"
+    fi
+else
+    echo "ERROR: DUE"
+fi
+rm hotspot.sm_*
+rm config_*
+rm gpgpu*
+rm _*
+rm -rf checkpoints/

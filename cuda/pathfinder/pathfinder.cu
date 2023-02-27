@@ -35,20 +35,6 @@ void init(int argc, char **argv) {
             wall[i][j] = rand() % 10;
         }
     }
-
-    if (getenv("OUTPUT")) {
-        FILE *file = fopen("output.txt", "w");
-
-        fprintf(file, "wall:\n");
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
-                fprintf(file, "%d ", wall[i][j]);
-            }
-            fprintf(file, "\n");
-        }
-
-        fclose(file);
-    }
 }
 
 #define IN_RANGE(x, min, max) ((x) >= (min) && (x) <= (max))
@@ -192,7 +178,7 @@ int run(int argc, char **argv) {
     printf("%.6f seconds\n", elapsed);
 
     if (getenv("OUTPUT")) {
-        FILE *file = fopen("output.txt", "a");
+        FILE *file = fopen("output.txt", "w");
 
         fprintf(file, "data:\n");
         for (int i = 0; i < cols; i++)

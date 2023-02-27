@@ -9,8 +9,9 @@ source setup_environment
 cd $2
 ldd lud
 
-./lud -s $3
-rm lud.sm_75.ptx*
-rm _app_cuda_version_*
-rm _cuobjdump_list_ptx_*
+valgrind --tool=massif ./lud -s $3
+rm lud.sm_*
+rm config_*
+rm gpgpu*
+rm _*
 rm -rf checkpoints/
