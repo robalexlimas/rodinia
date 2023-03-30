@@ -10,18 +10,21 @@ source setup_environment
 cd $2
 ldd backprop_cuda
 
-valgrind --tool=massif ./backprop_cuda $3
-DIFF=$(diff output.dat output_gpu.dat) 
-if [ "$DIFF" ] 
+./backprop_cuda $3
+if [ -f $2/output.dat ]
 then
-    diff --suppress-common-lines output.dat output_gpu.dat > diff.txt
-    mv diff.txt /injector/results
-    echo "WARNING: SDC"
+    DIFF=$(diff output.dat output_gpu.dat) 
+    if [ "$DIFF" ] 
+    then
+        diff --suppress-common-lines output.dat output_gpu.dat > diff.txt
+        mv diff.txt /injector/results
+        echo "WARNING: SDC"
+    else
+        echo "INFO: MASKED"
+    fi
 else
-    echo "INFO: MASKED"
+    echo "ERROR: DUE"
 fi
-mv massif.out.* /injector/results/
-mv output.* /injector/results
 rm backprop_cuda.sm_*
 rm config_*
 rm gpgpu*

@@ -10,18 +10,21 @@ source setup_environment
 cd $2
 ldd b+tree
 
-valgrind --tool=massif ./b+tree file ../../data/b+tree/mil.txt command ../../data/b+tree/command.txt
-DIFF=$(diff output.txt output_gpu.txt) 
-if [ "$DIFF" ] 
+./b+tree file ../../data/b+tree/mil.txt command ../../data/b+tree/command.txt
+if [ -f $2/output.txt ]
 then
-    diff --suppress-common-lines output.txt output_gpu.txt > diff.txt
-    mv diff.txt /injector/results
-    echo "WARNING: SDC"
+    DIFF=$(diff output.txt output_gpu.txt) 
+    if [ "$DIFF" ] 
+    then
+        diff --suppress-common-lines output.txt output_gpu.txt > diff.txt
+        mv diff.txt /injector/results
+        echo "WARNING: SDC"
+    else
+        echo "INFO: MASKED"
+    fi
 else
-    echo "INFO: MASKED"
+    echo "ERROR: DUE"
 fi
-mv massif.out.* /injector/results/
-mv output.* /injector/results
 rm cuda.sm_*
 kernel_gpu_cuda_wrapper*
 rm config_*

@@ -10,18 +10,21 @@ source setup_environment
 cd $2
 ldd nn
 
-valgrind --tool=massif ./nn $3 -r 5 -lat 30 -lng 90
-DIFF=$(diff output.txt output_gpu.txt) 
-if [ "$DIFF" ] 
+./nn $3 -r 5 -lat 30 -lng 90
+if [ -f $2/output.txt ]
 then
-    diff --suppress-common-lines output.txt output_gpu.txt > diff.txt
-    mv diff.txt /injector/results
-    echo "WARNING: SDC"
+    DIFF=$(diff output.txt output_gpu.txt) 
+    if [ "$DIFF" ] 
+    then
+        diff --suppress-common-lines output.txt output_gpu.txt > diff.txt
+        mv diff.txt /injector/results
+        echo "WARNING: SDC"
+    else
+        echo "INFO: MASKED"
+    fi
 else
-    echo "INFO: MASKED"
+    echo "ERROR: DUE"
 fi
-mv massif.out.* /injector/results/
-mv output.* /injector/results
 rm nn.sm_*
 rm config_*
 rm gpgpu*
